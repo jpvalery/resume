@@ -9,14 +9,14 @@
           "title": "Customer Success Team Lead",
           "start": "Jan 2022",
           "end": "",
-          "descriptionShort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus augue. Sed congue justo diam, sit amet congue urna. ",
+          "descriptionShort": "Led a team of CSMs in the Americas region while managing a book of 40+ strategic customers. Developed automations to monitor and increase team performance.",
           "descriptionLong": ""
         },
         {
           "title": "Customer Success Manager",
           "start": "Apr 2021",
           "end": "Jan 2022",
-          "descriptionShort": "",
+          "descriptionShort": "Managed a book of 50+ customers. Refactored customer Health Score. Revamped team documentation",
           "descriptionLong": ""
         }
       ]
@@ -30,7 +30,7 @@
           "title": "Growth Operations Manager",
           "start": "Feb 2020",
           "end": "Feb 2021",
-          "descriptionShort": "",
+          "descriptionShort": "Headed the Growth & Revenue Operations, Customer Success, and Customer Intelligence functions. Built growth stack and DXP from scratch. Supported Series A fundraising efforts.",
           "descriptionLong": ""
         }
       ]
@@ -44,21 +44,21 @@
           "title": "Growth Architect",
           "start": "Oct 2019",
           "end": "Feb 2020",
-          "descriptionShort": "",
+          "descriptionShort": "Growth strategies definition, execution, and optimization. Technical lead for the Customer Experience & Monetization team. Accountable for systems delivering over 10M emails and 12M in-app messages.",
           "descriptionLong": ""
         },
         {
           "title": "Customer Success Manager",
           "start": "May 2019",
           "end": "Oct 2019",
-          "descriptionShort": "",
+          "descriptionShort": "Automated content creation and localization. Deployed predictive churn campaigns based on ML predictions.",
           "descriptionLong": ""
         },
         {
           "title": "Customer Success Specialist",
           "start": "Aug 2018",
           "end": "Apr 2019",
-          "descriptionShort": "",
+          "descriptionShort": "Revamped all customer journeys interactions. Migrated from an outdated stack to Customer.io. Built documentation for the team.",
           "descriptionLong": ""
         }
       ]
@@ -72,7 +72,7 @@
           "title": "Community Manager",
           "start": "May 2017",
           "end": "Aug 2018",
-          "descriptionShort": "",
+          "descriptionShort": "Headed efforts to build a community platform. Managed social media and email marketing",
           "descriptionLong": ""
         }
       ]
@@ -86,14 +86,14 @@
           "title": "Product Marketing Manager",
           "start": "May 2016",
           "end": "Apr 2017",
-          "descriptionShort": "",
+          "descriptionShort": "Led marketing efforts on multi-million dollars game. Managed partnerships with Apple, Google, Microsoft, and licensors. Kickstarted AppStore Optimization efforts.",
           "descriptionLong": ""
         },
         {
           "title": "Community Manager",
           "start": "Oct 2014",
           "end": "May 2016",
-          "descriptionShort": "",
+          "descriptionShort": "Managed social media, developed wikis, kickstarted streaming programs leading to a featuring on Twitch's homepage, grew email lists to over 500k subscribers.",
           "descriptionLong": ""
         }
       ]
@@ -104,7 +104,7 @@
       "start": "Sep 2011",
       "end": "Jul 2014",
       "field_of_study": "Marketing/Marketing Management, General",
-      "degree_name": "Master of Science (MSc)",
+      "degree_name": "M.Sc Marketing & Management",
       "school": "KEDGE Business School",
       "school_linkedin_profile_url": null,
       "description": null,
@@ -114,7 +114,7 @@
       "start": "Sep 2009",
       "end": "Jun 2011",
       "field_of_study": "Economics",
-      "degree_name": "Classe Préparatoire",
+      "degree_name": "Economics",
       "school": "Centre International de Valbonne",
       "school_linkedin_profile_url": null,
       "description": null,
@@ -159,11 +159,11 @@
     { "title": "languages", "content": ["French", "English"] },
     {
       "title": "software",
-      "content": ["Customer.io", "Vitally", "Autocode", "Zapier"]
+      "content": ["Customer.io", "Segment", "Amplitude", "Vitally", "Autocode", "Zapier", "Notion"]
     },
     {
       "title": "code",
-      "content": ["HTML", "CSS", "JavaScript", "Next", "git", "API"]
+      "content": ["HTML", "CSS", "JavaScript", "Next", "Tailwind", "git", "REST API"]
     }
   ]
 }

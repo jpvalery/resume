@@ -2,10 +2,10 @@ import { NextSeo } from "next-seo";
 
 import linkedin from "../content/linkedin.json";
 
-import Block from "../components/block";
-import Experience from "../components/Experience";
-import SectionTitle from "../components/SectionTitle";
-import SkillGrid from "../components/SkillGrid";
+import Block from "../components/Block.js";
+import Experience from "../components/Experience.js";
+import SectionTitle from "../components/SectionTitle.js";
+import SkillGrid from "../components/SkillGrid.js";
 
 const experiences = linkedin.experiences;
 const education = linkedin.education;
@@ -14,8 +14,7 @@ const skills = linkedin.skills;
 
 import {
   AtSymbolIcon,
-  CursorClickIcon,
-  PhoneIncomingIcon
+  CursorClickIcon
 } from "@heroicons/react/outline";
 
 export default function Home() {
@@ -59,13 +58,6 @@ export default function Home() {
                 <div className="flex items-center gap-1">
                   <AtSymbolIcon className="h-4 w-4" />
                   <span>contact@jpvalery.me</span>
-                </div>
-
-                <span>|</span>
-
-                <div className="flex items-center gap-1">
-                  <PhoneIncomingIcon className="h-4 w-4" />
-                  <span>+1 514 431 0558</span>
                 </div>
 
                 <span>|</span>
@@ -136,8 +128,8 @@ export default function Home() {
               {education.map((item) => {
                 return (
                   <Block
-                    title={item.school}
-                    subtitle={item.degree_name}
+                    title={item.degree_name}
+                    subtitle={item.school}
                     description={item.shortDescription}
                     start={item.start}
                     end={item.end}
