@@ -2,7 +2,7 @@ import { NextSeo } from "next-seo";
 
 import linkedin from "../content/linkedin.json";
 
-import Block from "../components/Block.js";
+import Block from "../components/Block";
 import Experience from "../components/Experience.js";
 import SectionTitle from "../components/SectionTitle.js";
 import SkillGrid from "../components/SkillGrid.js";
