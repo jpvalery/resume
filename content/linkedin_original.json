@@ -1,0 +1,609 @@
+{
+  "public_identifier": "jpvalery",
+  "profile_pic_url": "https://media-exp1.licdn.com/dms/image/C4D03AQEVH4FtJ7SMZQ/profile-displayphoto-shrink_400_400/0/1521501166399?e=1663804800&v=beta&t=r7IKppLwZHfXcOIYYX65oVSwVEiXGJeB9eQ1nNvO95A",
+  "background_cover_image_url": null,
+  "first_name": "Jp",
+  "last_name": "Valery",
+  "full_name": "Jp Valery",
+  "occupation": "Customer Success Team Lead at Customer.io",
+  "headline": "Customer Success Team Lead @ Customer.io",
+  "summary": "Through my expertise in automation, integration, and instrumentation, I help digital products nurture and grow their audience, and companies be more efficient.",
+  "country": "CA",
+  "country_full_name": "Canada",
+  "city": "Greater Montreal Metropolitan Area",
+  "state": null,
+  "experiences": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 4,
+        "year": 2021
+      },
+      "ends_at": null,
+      "company": "Customer.io",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/customer-io/",
+      "title": "Customer Success Team Lead",
+      "description": null,
+      "location": "Montreal, Quebec, Canada",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQH3O_fWsB6u9g/company-logo_400_400/0/1629323216056?e=1666224000&v=beta&t=TXzhUET06UDlf0lRrO0TrPR19GZYu8iPZE-_vPaBBxU"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 11,
+        "year": 2020
+      },
+      "ends_at": null,
+      "company": "Revenue Collective",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/join-pavilion/",
+      "title": "Associate Chapter Head",
+      "description": "The Revenue Collective is a private, invitation-only community of sales and marketing executive at growth-focused companies.",
+      "location": "Montreal, Quebec, Canada",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C560BAQFjbY9EN59zoQ/company-logo_400_400/0/1656692294008?e=1666224000&v=beta&t=g9MZS5RZ2673Vd8ueCfdB8G98AEQjp1mGGNVHfDPnBM"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 2,
+        "year": 2020
+      },
+      "ends_at": {
+        "day": 28,
+        "month": 2,
+        "year": 2021
+      },
+      "company": "Local Logic | We're hiring!",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/local-logic-inc-/",
+      "title": "Growth Operations Manager",
+      "description": "I lead the Growth Operations team at Local Logic which is composed of GrowthOps/RevOps, Customer Success, and Customer Intelligence. I'm responsible for the strategy and execution of designing and building our infrastructure to support our teams and our users in being more successful through processes, tools, automation, instrumentation, and systems. This encompasses business performance and success metrics both for internal and external stakeholders.\n\n* Built a complete DXP and transitioned the Growth Stack into a more efficient and streamlined setup (Segment, Pipedrive, Customer.io, Zapier, Parabola, Vitally, Ghost, Zendesk, Amplitude, Aircall, Airtable), resulting in a reliable instrumentation and cost savings over $30,000 a year.\n* Instrumented and automated user journey, resulting in an increase in activation rate (+100%) and conversion rate as well as time to activation (halved).\n* Owned the customer data pipeline and responsible for its sanity and completeness. \n* Reporting and analysis on conversion funnels, email and website performance, and other initiatives.\n* Rebuilt of the website on Webflow, before handling the transition to Next.js+GraphCMS\n* Managed P&L and vendor evaluation/relationship.\n* Hired, trained, and managed team.\n* Developed documentation and knowledge base assets.",
+      "location": "Montreal, Canada Area",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C560BAQEtCnIxs7DOjw/company-logo_400_400/0/1603809107627?e=1666224000&v=beta&t=V1nELKpFGrzsebPGlk6h14TPtrAuXWmXmT4AgnTld5g"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 4,
+        "year": 2019
+      },
+      "ends_at": null,
+      "company": "GLG",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/glg/",
+      "title": "Consultant",
+      "description": "Consultant on mandates related to my areas of expertise: mobile, gaming, freemium, saas, growth, automation",
+      "location": null,
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQGOV640ce807A/company-logo_400_400/0/1625143245981?e=1666224000&v=beta&t=KDrONRcSO4W4WxRK-n-MgYibCy1kAVjkqS0gHbyHYAo"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 8,
+        "year": 2018
+      },
+      "ends_at": {
+        "day": 29,
+        "month": 2,
+        "year": 2020
+      },
+      "company": "LANDR Audio Inc.",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/mixgeni-us/",
+      "title": "Growth Architect",
+      "description": "As Growth Architect, I'm responsible for development, execution, and optimization of growth strategies. I build multi-variate experiments, transform their insights in iterative action plans, with as a result a growth of our KPIS. \n\nI connect the dots across the organization, accelerate change, and deliver incremental value at every step. \nI act as technical lead for the Customer Experience & Monetization and I'm accountable for our systems that delivers over 10M emails per year and 12M inapps.",
+      "location": "Montreal, Canada Area",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQHnOyT0wuLcbQ/company-logo_400_400/0/1643897463718?e=1666224000&v=beta&t=rQL2c7CSphseSLUWR_BdOTaYqJl-Sg8co1A9VAscA9A"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2017
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 8,
+        "year": 2018
+      },
+      "company": "RobotShop",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/robotshop/",
+      "title": "Community Manager",
+      "description": "RobotShop is the world's leading source of robotics online with operations all around the world. The development of the largest robotics community in the world is a strategic development axis for the company.\n\nMy missions include:\n* Community Management: Defining the reactivation and growth strategy of the Let's Make Robots community.\n* Social Media Marketing: Defining and setting up social media, content production (web, photo, and video), and curation strategy.\n* Community Building: Growth and retention strategy, the design on the community platform, supervising its development.\n* Gamification: Defining retention mechanisms inspired by game design\n* Email marketing: Newsletter campaigns and automation.",
+      "location": "Mirabel",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQE0n73Yb9iX2g/company-logo_400_400/0/1519888783076?e=1666224000&v=beta&t=AO2L1BhWflMWI4RuX3jIiDC_oW4etW--hrO4yt7QrWg"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 10,
+        "year": 2015
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 4,
+        "year": 2017
+      },
+      "company": "Drones Nation",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/drones-nation/",
+      "title": "Co-Founder / Director",
+      "description": "As Co-Founder and Director, I manage all technical aspects of the website as well as the global strategy of the project.\n\nIt goes through managing a team on two continents (North-America and Europe), as well as a 10,000USD AdWords budget, social media management, Content Marketing, newsletters, SEO...",
+      "location": null,
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4D0BAQGZPeEfEjWbzQ/company-logo_400_400/0/1519887906708?e=1666224000&v=beta&t=opuIL5P9PiB_Ta1WLv9cXaJUvJjwYYJciwHcbxxXrLk"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 10,
+        "year": 2014
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 4,
+        "year": 2017
+      },
+      "company": "Gameloft",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/gameloft/",
+      "title": "Product Marketing Manager",
+      "description": "Product Marketing Manager on Dungeon Hunter 5 and Gangstar New Orleans.\n\nI'm in charge of all things marketing on a global scope, supervising :\n* Product Marketing : audience identification, branding, KSP definition, getting featurings on Apple, Google, and Windows, partnerships,...\n* AppStore Optimization : optimizing the store pages to improve conversion rate, A/B testing, research,...\n* User Acquisition : supervising the global UA campaigns, especially in the US, developing promo assets, as well as acquisition and reengagement strategies\n* Communication : responsible for all communications, community management, newsletters,...\n\nThis role is both for game evolution phases as well as global launch phases.",
+      "location": "Région de Montréal, Canada",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQF-d4Puskmo5w/company-logo_400_400/0/1620206186428?e=1666224000&v=beta&t=fmkWCPHfyPiIlYr693yVDVgtJWsUYLCheLoHj2qzxLI"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 2,
+        "year": 2014
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 8,
+        "year": 2014
+      },
+      "company": "Point zero /DB5 INC.      Montreal, Canada",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/point-zero-db5-inc.-montreal-canada/",
+      "title": "Assistant Brand Manager",
+      "description": "I performed my end-of-study internship in the DB5 Inc. division of Point Zero as Assistant Brand Manager.\n\nThere, I have especially set up the whole Social Medias strategy of the branch. A multi-channel and aimed to multiple targets strategy, started from scratch. But I didn‘t stop here. I also realized graphic design assignments (sales catalogues, lookbooks, backlights), merchandising (showrooms design),...",
+      "location": "Région de Montréal, Canada",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 4,
+        "year": 2013
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 1,
+        "year": 2017
+      },
+      "company": "VYSU∆L.ORG",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/vysual-org/",
+      "title": "Co-Founder / Director",
+      "description": "As a Co-Founder and Director, I manage all the technical aspects as well as the definition of the global strategy of the project.\n\nIt especially goes through the management of a team made of a dozen of people across two continents (North America and Europe) and a remote-first culture, and the management of the partnerships.\n\nBut also the supervising of an AdWords budget of 10,000USD sponsored by Google, the social media management, post writing, Content Marketing, SEO, growth hacking,...",
+      "location": null,
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4E0BAQE7Bkp1Ov4yEg/company-logo_400_400/0/1519876506144?e=1666224000&v=beta&t=hrfTJzodIe4m8dqLj3zR-AVZw_NwRSUQiw5CRJL-ZwQ"
+    }
+  ],
+  "education": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2011
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 12,
+        "year": 2014
+      },
+      "field_of_study": "Marketing/Marketing Management, General",
+      "degree_name": "Master of Science (MSc)",
+      "school": "KEDGE Business School",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4D0BAQHt4uqBND5ZYQ/company-logo_400_400/0/1580717349238?e=1666224000&v=beta&t=HvM_QBHhFlgA3COcmnVy4nFIjjCOvKl-k91ixryGjDA"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2009
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 12,
+        "year": 2011
+      },
+      "field_of_study": "Economics",
+      "degree_name": null,
+      "school": "Centre International de Valbonne",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": null
+    }
+  ],
+  "languages": ["Anglais", "Espagnol", "Français"],
+  "accomplishment_organisations": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 11,
+        "year": 2012
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 4,
+        "year": 2014
+      },
+      "org_name": "Technom'aide",
+      "title": "VP / Resp. TechLab",
+      "description": null
+    }
+  ],
+  "accomplishment_publications": [
+    {
+      "name": "Mystic Mists of Massachussets",
+      "publisher": null,
+      "published_on": {
+        "day": 1,
+        "month": 1,
+        "year": 2018
+      },
+      "description": null,
+      "url": "http://jpvalery.photo/mystic-mists-of-massachusetts"
+    },
+    {
+      "name": "An American Road Trip - A Visual Journey Across North-America",
+      "publisher": null,
+      "published_on": {
+        "day": 1,
+        "month": 1,
+        "year": 2016
+      },
+      "description": null,
+      "url": "https://itunes.apple.com/book/id1127142148"
+    },
+    {
+      "name": "Community Management 101",
+      "publisher": null,
+      "published_on": {
+        "day": 1,
+        "month": 1,
+        "year": 2015
+      },
+      "description": null,
+      "url": "http://wordpress.tv/2015/09/12/jean-pierre-valery-gestion-de-communaute-101/"
+    },
+    {
+      "name": "How has musical streaming transformed consumers habits toward musical work?",
+      "publisher": null,
+      "published_on": {
+        "day": 1,
+        "month": 1,
+        "year": 2014
+      },
+      "description": null,
+      "url": null
+    }
+  ],
+  "accomplishment_honors_awards": [
+    {
+      "title": "Unsplash - Community 2018",
+      "issuer": "Unsplash",
+      "issued_on": {
+        "day": 1,
+        "month": 1,
+        "year": 2018
+      },
+      "description": null
+    },
+    {
+      "title": "Unsplash - Community All Star 2017",
+      "issuer": "Unsplash",
+      "issued_on": {
+        "day": 1,
+        "month": 1,
+        "year": 2017
+      },
+      "description": "Selected among the top 100 community member among 65,000+"
+    },
+    {
+      "title": "G-Technology - Driven Creativity 2013 - Shortlist",
+      "issuer": "G-Technology.eu",
+      "issued_on": {
+        "day": 1,
+        "month": 11,
+        "year": 2013
+      },
+      "description": "My entry for the G-Technology Driven Creativy 2013 was selected by a jury of professionals in the shortlist for this competition"
+    },
+    {
+      "title": "IBM EMEA Best Student Recognition Event 2013",
+      "issuer": "IBM",
+      "issued_on": {
+        "day": 1,
+        "month": 7,
+        "year": 2013
+      },
+      "description": null
+    },
+    {
+      "title": "IBM EMEA Best Student Recognition Event 2013 - Twitter King",
+      "issuer": "IBM",
+      "issued_on": {
+        "day": 1,
+        "month": 7,
+        "year": 2013
+      },
+      "description": "My LiveTweet of the event has been elected as the best one"
+    },
+    {
+      "title": "RemixJobs CV Awards - Finalist",
+      "issuer": "RemixJobs SARL",
+      "issued_on": {
+        "day": 1,
+        "month": 7,
+        "year": 2013
+      },
+      "description": "One of the finalist of the RemixJobs CV Awards (Résumé Design Contest)"
+    }
+  ],
+  "accomplishment_patents": [],
+  "accomplishment_courses": [],
+  "accomplishment_projects": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2015
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 3,
+        "year": 2016
+      },
+      "title": "Comité Social - Gameloft Montréal",
+      "description": "Membre du bureau du Comité Social de Gameloft Montréal.\nOrganisation des événements sociaux du studio : 5à7, Party de Noël, Party d'Été, sorties,...",
+      "url": null
+    }
+  ],
+  "accomplishment_test_scores": [
+    {
+      "name": "TOEIC",
+      "score": "990/990 - Gold",
+      "date_on": {
+        "day": 1,
+        "month": 11,
+        "year": 2013
+      },
+      "description": null
+    },
+    {
+      "name": "Baccalauréat Economy and Social",
+      "score": "Mention AB",
+      "date_on": {
+        "day": 1,
+        "month": 6,
+        "year": 2009
+      },
+      "description": null
+    }
+  ],
+  "volunteer_work": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2019
+      },
+      "ends_at": null,
+      "title": "Founder",
+      "cause": "Arts_and_culture",
+      "company": "Montréal Photo Club",
+      "company_linkedin_profile_url": null,
+      "description": "After hosting multiple events with Unsplash and the Metro Photo Challenge, I decided to make this a more formal club. So that we can keep having fun, learning from each other, and meeting other fine folks.\n\nhttps://montrealphoto.club",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2017
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 8,
+        "year": 2017
+      },
+      "title": "Volunteer / Mentor",
+      "cause": "Economic_empowerment",
+      "company": "OutOfOfficeHours.com",
+      "company_linkedin_profile_url": null,
+      "description": "Creating dialog between newcomers and people working in the tech industry.",
+      "logo_url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 5,
+        "year": 2014
+      },
+      "ends_at": {
+        "day": 30,
+        "month": 6,
+        "year": 2015
+      },
+      "title": "Volunteer at Formula 1 Grand Prix du Canada 2014",
+      "cause": null,
+      "company": "FORMULA 1 GRAND PRIX DU CANADA",
+      "company_linkedin_profile_url": "https://www.linkedin.com/company/octane-management-inc-/",
+      "description": "Volunteering for the Formula 1 Grand Prix du Canada 2014 - in charge of VIP and press boat transport",
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4D0BAQFzXu9jL_76ow/company-logo_400_400/0/1533588391831?e=1666224000&v=beta&t=tZcJIdKT7gN_P3RSAVbBdr4ZJDo6xxBB2l_kq1QXXns"
+    }
+  ],
+  "certifications": [
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 7,
+        "year": 2021
+      },
+      "ends_at": null,
+      "name": "Revenue Growth Architecture School",
+      "license_number": null,
+      "display_source": "google.com",
+      "authority": "Winning by Design",
+      "url": "https://drive.google.com/file/d/1Fz2UGd1Q3urEMyQise5X57tNw-OCgkS_/view?usp=drivesdk"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 9,
+        "year": 2020
+      },
+      "ends_at": null,
+      "name": "Certified Incident Responder",
+      "license_number": "t2j26qgz7fe9",
+      "display_source": "skilljar.com",
+      "authority": "PagerDuty",
+      "url": "https://verify.skilljar.com/c/t2j26qgz7fe9"
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2019
+      },
+      "ends_at": null,
+      "name": "Pilot Certificate (Small Remotely Piloted Aircraft System (RPAS))",
+      "license_number": null,
+      "display_source": null,
+      "authority": "Transport Canada - Transports Canada",
+      "url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 4,
+        "year": 2018
+      },
+      "ends_at": null,
+      "name": "Business Fundamentals (Shopify Partner)",
+      "license_number": null,
+      "display_source": null,
+      "authority": "Shopify",
+      "url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 1,
+        "year": 2019
+      },
+      "ends_at": {
+        "day": 31,
+        "month": 1,
+        "year": 2024
+      },
+      "name": "FORMATION DES TÉLÉPILOTES D’AÉRONEFS CIVILS CIRCULANT SANS PERSONNE A BORD UTILISÉS A DES FINS DE LOISIR",
+      "license_number": null,
+      "display_source": null,
+      "authority": "Direction Generale de l'Aviation Civile",
+      "url": null
+    },
+    {
+      "starts_at": {
+        "day": 1,
+        "month": 2,
+        "year": 2018
+      },
+      "ends_at": {
+        "day": 28,
+        "month": 2,
+        "year": 2021
+      },
+      "name": "Dynamic Personalization with Liquid",
+      "license_number": "meffbirxbjgd",
+      "display_source": "skilljar.com",
+      "authority": "Braze (formerly Appboy)",
+      "url": "https://verify.skilljar.com/c/meffbirxbjgd"
+    }
+  ],
+  "connections": null,
+  "people_also_viewed": [
+    {
+      "link": "https://www.linkedin.com/in/shannonnishi",
+      "name": "Shannon Nishi",
+      "summary": "Director of Customer Success at Customer.io",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/rachel-cobb-844a4640",
+      "name": "Rachel Cobb ",
+      "summary": "SAAS Educator | Team Trainer | Customer Success Manager",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/slaterjamessmith",
+      "name": "Slater Smith",
+      "summary": "Customer Success @ Customer.io",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/rita-caetano-71005137",
+      "name": "Rita Caetano",
+      "summary": "Customer Success Team Lead @ Customer.io",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/michael-pingitore-bab1212b",
+      "name": "Michael Pingitore",
+      "summary": "Customer Success Team Lead",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/billmiksich",
+      "name": "Bill Miksich",
+      "summary": "Customer.io",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/mélissa-beaulieu",
+      "name": "Mélissa Beaulieu",
+      "summary": "Customer Success - Team Lead",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/eleanorheins",
+      "name": "Eleanor H.",
+      "summary": "Managing Director, Client Success | I'm hiring!",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/christine-alves",
+      "name": "Christine Alves",
+      "summary": "Education Customer Success Team Lead at ThoughtExchange",
+      "location": null
+    },
+    {
+      "link": "https://www.linkedin.com/in/katarzyna-grzywna",
+      "name": "Katarzyna Grzywna",
+      "summary": "Customer Success Manager Team Lead at Beanworks",
+      "location": null
+    }
+  ],
+  "recommendations": [
+    "Victoria S.\n\n\n\nIt is hard to beat the good fortune of having a manager like Jp. He is generous with his time, leads by example, and actively seeks ways to bring the best out of you. His talent and work ethic are eclipsed only by his care and humility. Jp is the kind of person who will go the extra mile for you, and at the same time, pave the way for you to walk your own path. He has been one of my greatest teachers, and I would recommend him without reservation. ",
+    "Laura MacDonald, CPA\n\n\n\nJp is a renaissance man for the modern age! His problem solving and automation skills helped me find my way out of complex problems more than once. I loved working with him.",
+    "Priscilla Yee, CPA, CA\n\n\n\nI’ve had the pleasure of working with JP for a little over a year at LANDR. During that time, although we were not in the same department, I witnessed JP continuously go above and beyond the call of duty. He took on every challenge with a positive attitude and worked tirelessly to deliver every single time. In a very short time frame, he established himself as a key player within his department. Not only did he do his work extremely well, but he genuinely cared about the projects that he was involved in. \n\nIn my opinion, companies should be built with people like JP; individuals who have the skillset to do the work required, the passion to continuously strive for improvement, and the respect of their peers to foster teamwork and get results. I would not hesitate to recommend JP; any company would be lucky to have a person like him in the fold. ",
+    "Sophie C.\n\n\n\nTo this day, I am still so impressed with JP's meticulous work ethic and observation skills. The devil is in the details, and JP will be the first one to point out the flaws and finding creative solutions to address them, from campaign creation to team management.\nMy transition into a Sales driven department was largely fast-track by JP's keenness in onboarding, as well as his eloquence and fluency in diverse skills touching UX, A/B testing, HTML/CSS, and so on.\n\nI'm happily recommending him to any employers who are looking for a polyvalent and adaptable professional.",
+    "Vanessa Salvo\n\n\n\nJP joined LANDR at a time when our Customer Success team was going through a challenging transition phase. He faced the challenge relentlessly and proved himself time and time again as someone who cares a lot about his work. The effort he puts into things is mind-boggling. He goes the extra mile to solve a problem and has a positive, collaborative attitude. When you work with JP, it always feels like you're moving forward...and fast. It was a pleasure working with him and any organization would be lucky to have him. ",
+    "Roxana Georgiana Rascanu\n\n\n\nI have collaborate with Jean Pierre on several projects like Dungeon Hunter 5 and Gangstar New Orleans, and I can certainly point out his ability to deliver the assets requested in time and in good quality. He showed exceptional professionalism, dynamism and has solid skills in his field of expertise.\r\nIt was an immense pleasure to work with him - he is reliable, hardworking and very honest :). ",
+    "Gwennaëlle Dugand\n\n\n\nI had the opportunity to work with JP at Point Zero. It was a pleasure, a great colleague, very professional. \r\nGreat in building analysis, giving relevant solutions to solve problems. \r\nNot afraid to work and good team player.",
+    "Ryan Changes\n\n\n\nI worked with Jp consistently during my time at Gameloft, and on some of the company's biggest games. Jp was always an asset to any project or task I worked with him on. From high quality work, effective communication, and new ideas on how to shake things up, Jp was a true professional. With all of that said, I firmly believe Jp is a great addition to any team he is on, and I look forward to the day where our paths cross again!",
+    "Kieran O'Leary\n\n\n\nMa collaboration avec Jean-Pierre est de celles que l'on envie. Community Manager passionne, au fait des dernieres tendances et innovations dans son domaine et dans le monde digitale au sens large, il est egalement d'une aide precieuse de par ses competences en developpement web et son expertise des outils graphiques. En somme, une personne dont la contribution est d'une aide precieuse dans toutes les situations qui appellent a etre creatif, et professionnel.",
+    "Pierre Morizot - Hiring\n\n\n\nI had the opportunity to work with Jp on a bunch of courses and workshop. On top of being a great and key element in a team, Jp is very knowledgeable on everything which is link to digital and IT. \r\nJp is aslo very reliable person, he always deliver on his promise !"
+  ],
+  "activities": [],
+  "similarly_named_profiles": [],
+  "articles": [],
+  "groups": []
+}

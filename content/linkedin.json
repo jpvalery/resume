@@ -1,0 +1,169 @@
+{
+  "experiences": [
+    {
+      "company": "Customer.io",
+      "logo_url": "/static/customerio.jpg",
+      "location": "Remote",
+      "roles": [
+        {
+          "title": "Customer Success Team Lead",
+          "start": "Jan 2022",
+          "end": "",
+          "descriptionShort": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac luctus augue. Sed congue justo diam, sit amet congue urna. ",
+          "descriptionLong": ""
+        },
+        {
+          "title": "Customer Success Manager",
+          "start": "Apr 2021",
+          "end": "Jan 2022",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        }
+      ]
+    },
+    {
+      "company": "Local Logic",
+      "logo_url": "/static/locallogic.jpg",
+      "location": "Remote",
+      "roles": [
+        {
+          "title": "Growth Operations Manager",
+          "start": "Feb 2020",
+          "end": "Feb 2021",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        }
+      ]
+    },
+    {
+      "company": "LANDR",
+      "logo_url": "/static/landr.jpg",
+      "location": "Montréal, QC (Canada)",
+      "roles": [
+        {
+          "title": "Growth Architect",
+          "start": "Oct 2019",
+          "end": "Feb 2020",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        },
+        {
+          "title": "Customer Success Manager",
+          "start": "May 2019",
+          "end": "Oct 2019",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        },
+        {
+          "title": "Customer Success Specialist",
+          "start": "Aug 2018",
+          "end": "Apr 2019",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        }
+      ]
+    },
+    {
+      "company": "RobotShop",
+      "logo_url": "/static/robotshop.jpg",
+      "location": "Mirabel, QC (Canada)",
+      "roles": [
+        {
+          "title": "Community Manager",
+          "start": "May 2017",
+          "end": "Aug 2018",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        }
+      ]
+    },
+    {
+      "company": "Gameloft",
+      "logo_url": "/static/gameloft.jpg",
+      "location": "Montréal, QC (Canada)",
+      "roles": [
+        {
+          "title": "Product Marketing Manager",
+          "start": "May 2016",
+          "end": "Apr 2017",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        },
+        {
+          "title": "Community Manager",
+          "start": "Oct 2014",
+          "end": "May 2016",
+          "descriptionShort": "",
+          "descriptionLong": ""
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "start": "Sep 2011",
+      "end": "Jul 2014",
+      "field_of_study": "Marketing/Marketing Management, General",
+      "degree_name": "Master of Science (MSc)",
+      "school": "KEDGE Business School",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": "https://media-exp1.licdn.com/dms/image/C4D0BAQHt4uqBND5ZYQ/company-logo_400_400/0/1580717349238?e=1666224000&v=beta&t=HvM_QBHhFlgA3COcmnVy4nFIjjCOvKl-k91ixryGjDA"
+    },
+    {
+      "start": "Sep 2009",
+      "end": "Jun 2011",
+      "field_of_study": "Economics",
+      "degree_name": "Classe Préparatoire",
+      "school": "Centre International de Valbonne",
+      "school_linkedin_profile_url": null,
+      "description": null,
+      "logo_url": "/static/school.jpg"
+    }
+  ],
+  "certifications": [
+    {
+      "start": "Jul 2021",
+      "end": "",
+      "name": "Revenue Growth Architecture School",
+      "license_number": null,
+      "display_source": "google.com",
+      "authority": "Winning by Design",
+      "url": "https://drive.google.com/file/d/1Fz2UGd1Q3urEMyQise5X57tNw-OCgkS_/view?usp=drivesdk",
+      "logo_url": "/static/winningbydesign.jpg"
+    },
+    {
+      "start": "Sep 2020",
+      "end": "",
+      "name": "Certified Incident Responder",
+      "license_number": "t2j26qgz7fe9",
+      "display_source": "skilljar.com",
+      "authority": "PagerDuty",
+      "url": "https://verify.skilljar.com/c/t2j26qgz7fe9",
+      "logo_url": "/static/pagerduty.jpg"
+    }
+  ],
+  "recommendations": [
+    "Victoria S.\n\n\n\nIt is hard to beat the good fortune of having a manager like Jp. He is generous with his time, leads by example, and actively seeks ways to bring the best out of you. His talent and work ethic are eclipsed only by his care and humility. Jp is the kind of person who will go the extra mile for you, and at the same time, pave the way for you to walk your own path. He has been one of my greatest teachers, and I would recommend him without reservation. ",
+    "Laura MacDonald, CPA\n\n\n\nJp is a renaissance man for the modern age! His problem solving and automation skills helped me find my way out of complex problems more than once. I loved working with him.",
+    "Priscilla Yee, CPA, CA\n\n\n\nI’ve had the pleasure of working with JP for a little over a year at LANDR. During that time, although we were not in the same department, I witnessed JP continuously go above and beyond the call of duty. He took on every challenge with a positive attitude and worked tirelessly to deliver every single time. In a very short time frame, he established himself as a key player within his department. Not only did he do his work extremely well, but he genuinely cared about the projects that he was involved in. \n\nIn my opinion, companies should be built with people like JP; individuals who have the skillset to do the work required, the passion to continuously strive for improvement, and the respect of their peers to foster teamwork and get results. I would not hesitate to recommend JP; any company would be lucky to have a person like him in the fold. ",
+    "Sophie C.\n\n\n\nTo this day, I am still so impressed with JP's meticulous work ethic and observation skills. The devil is in the details, and JP will be the first one to point out the flaws and finding creative solutions to address them, from campaign creation to team management.\nMy transition into a Sales driven department was largely fast-track by JP's keenness in onboarding, as well as his eloquence and fluency in diverse skills touching UX, A/B testing, HTML/CSS, and so on.\n\nI'm happily recommending him to any employers who are looking for a polyvalent and adaptable professional.",
+    "Vanessa Salvo\n\n\n\nJP joined LANDR at a time when our Customer Success team was going through a challenging transition phase. He faced the challenge relentlessly and proved himself time and time again as someone who cares a lot about his work. The effort he puts into things is mind-boggling. He goes the extra mile to solve a problem and has a positive, collaborative attitude. When you work with JP, it always feels like you're moving forward...and fast. It was a pleasure working with him and any organization would be lucky to have him. ",
+    "Roxana Georgiana Rascanu\n\n\n\nI have collaborate with Jean Pierre on several projects like Dungeon Hunter 5 and Gangstar New Orleans, and I can certainly point out his ability to deliver the assets requested in time and in good quality. He showed exceptional professionalism, dynamism and has solid skills in his field of expertise.\r\nIt was an immense pleasure to work with him - he is reliable, hardworking and very honest :). ",
+    "Gwennaëlle Dugand\n\n\n\nI had the opportunity to work with JP at Point Zero. It was a pleasure, a great colleague, very professional. \r\nGreat in building analysis, giving relevant solutions to solve problems. \r\nNot afraid to work and good team player.",
+    "Ryan Changes\n\n\n\nI worked with Jp consistently during my time at Gameloft, and on some of the company's biggest games. Jp was always an asset to any project or task I worked with him on. From high quality work, effective communication, and new ideas on how to shake things up, Jp was a true professional. With all of that said, I firmly believe Jp is a great addition to any team he is on, and I look forward to the day where our paths cross again!",
+    "Kieran O'Leary\n\n\n\nMa collaboration avec Jean-Pierre est de celles que l'on envie. Community Manager passionne, au fait des dernieres tendances et innovations dans son domaine et dans le monde digitale au sens large, il est egalement d'une aide precieuse de par ses competences en developpement web et son expertise des outils graphiques. En somme, une personne dont la contribution est d'une aide precieuse dans toutes les situations qui appellent a etre creatif, et professionnel.",
+    "Pierre Morizot - Hiring\n\n\n\nI had the opportunity to work with Jp on a bunch of courses and workshop. On top of being a great and key element in a team, Jp is very knowledgeable on everything which is link to digital and IT. \r\nJp is aslo very reliable person, he always deliver on his promise !"
+  ],
+  "skills": [
+    { "title": "languages", "content": ["French", "English"] },
+    {
+      "title": "software",
+      "content": ["Customer.io", "Vitally", "Autocode", "Zapier"]
+    },
+    {
+      "title": "code",
+      "content": ["HTML", "CSS", "JavaScript", "Next", "git", "API"]
+    }
+  ]
+}
