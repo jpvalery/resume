@@ -123,6 +123,16 @@
   ],
   "certifications": [
     {
+      "start": "Aug 2022",
+      "end": "",
+      "name": "Chief Customer Officer (CCO) School",
+      "license_number": null,
+      "display_source": "google.com",
+      "authority": "Pavilion",
+      "url": "https://drive.google.com/file/d/1PzFCqB_PHnMqhiZaQpEkKnj-GJ6I07ZP/view?usp=drivesdk",
+      "logo_url": "/static/pavilion.jpg"
+    },
+    {
       "start": "Jul 2021",
       "end": "",
       "name": "Revenue Growth Architecture School",
