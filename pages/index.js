@@ -93,7 +93,7 @@ export default function Home() {
                 subtitle="Associate Chapter Head"
                 logo="/static/pavilion.jpg"
                 start="Nov 2020"
-                end=""
+                end="Jan 2023"
               />
               <Block
                 title="Tegus"
