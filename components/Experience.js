@@ -2,18 +2,25 @@ import Image from "next/image";
 
 export default function Experience({ company, logo, location, roles }) {
   return (
-    <section className="mb-4.5 grid break-inside-avoid grid-flow-row gap-2">
+    <section className="grid grid-flow-row gap-2 break-inside-avoid">
       <header className="grid grid-flow-col items-center justify-start gap-2">
         <div className="h-10 w-10">
-          {logo && <Image src={logo} alt={company} width="400" height="400" objectFit="cover" className="rounded" />}
+          {logo && (
+            <Image
+              src={logo}
+              alt={company}
+              width="400"
+              height="400"
+              objectFit="cover"
+              className="rounded"
+            />
+          )}
         </div>
         <div className="gap grid grid-flow-row">
-          <h3 className="text-lg font-semibold leading-snugish text-stone-900">
+          <h3 className="text-lg font-semibold leading-snugish text-zinc-800">
             {company}
           </h3>
-          <p className="text-base font-medium leading-snugish text-stone-700">
-            {location}
-          </p>
+          <p className="text-sm leading-snugish text-zinc-700">{location}</p>
         </div>
       </header>
       <section>
@@ -21,10 +28,10 @@ export default function Experience({ company, logo, location, roles }) {
           return (
             <div className="pb-2">
               <div className="inline-flex items-baseline gap-2">
-                <p className="text-md leading-normal text-stone-900">
+                <p className="text-md font-medium leading-normal text-zinc-950">
                   {role.title}
                 </p>
-                <p className="text-xs leading-normal text-stone-600">
+                <p className="text-xs leading-normal text-zinc-600">
                   {role.end == ""
                     ? `since ${role.start}`
                     : `${role.start} - ${role.end}`}
@@ -32,7 +39,7 @@ export default function Experience({ company, logo, location, roles }) {
               </div>
 
               {role.descriptionShort && (
-                <p className="text-sm leading-normal text-stone-800">
+                <p className="text-sm leading-normal text-zinc-800">
                   {role.descriptionShort}
                 </p>
               )}

@@ -17,12 +17,12 @@ export default function Block({ title, subtitle, logo, start, end }) {
           )}
         </div>
         <div>
-          <p className="text-lg font-semibold leading-snugish text-stone-800">
+          <p className="text-lg font-semibold leading-snugish text-zinc-800">
             {title}
           </p>
           <div className="inline-flex items-baseline gap-2">
-            <p className="text-md leading-normal text-stone-700">{subtitle}</p>
-            <p className="text-xs leading-normal text-stone-600">
+            <p className="text-base leading-normal text-zinc-700">{subtitle}</p>
+            <p className="text-xs leading-normal text-zinc-600">
               {end == "" ? `since ${start}` : `${start} - ${end}`}
             </p>
           </div>

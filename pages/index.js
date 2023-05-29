@@ -12,10 +12,7 @@ const education = linkedin.education;
 const certifications = linkedin.certifications;
 const skills = linkedin.skills;
 
-import {
-  AtSymbolIcon,
-  CursorClickIcon
-} from "@heroicons/react/outline";
+import { AtSymbolIcon, CursorArrowRaysIcon } from "@heroicons/react/20/solid";
 
 export default function Home() {
   return (
@@ -37,9 +34,9 @@ export default function Home() {
         {/* Page */}
         <div className="page mx-auto max-w-2xl bg-white p-6 print:max-w-letter xsm:p-8 sm:p-9 md:h-letter md:max-w-letter md:p-16">
           {/* Name */}
-          <header className="mb-8 flex items-center md:mb-11">
+          <header className="mb-6 flex items-center md:mb-11">
             <div
-              className="initials-container mr-5 bg-stone-800 px-3 text-base font-medium leading-none text-white print:bg-black"
+              className="initials-container mr-5 bg-zinc-800 px-3 text-base font-medium leading-none text-white print:bg-black"
               style={{ paddingBottom: "0.6875rem", paddingTop: "0.6875rem" }}
             >
               <div
@@ -51,7 +48,7 @@ export default function Home() {
               <div className="initial text-center">P</div>
             </div>
             <div>
-              <h1 className="pb-px text-4xl font-bold uppercase text-stone-900">
+              <h1 className="pb-px text-4xl font-bold uppercase text-zinc-900">
                 Jp Valery
               </h1>
               <div className="flex gap-2 font-mono text-sm">
@@ -63,7 +60,7 @@ export default function Home() {
                 <span>|</span>
 
                 <div className="flex items-center gap-1">
-                  <CursorClickIcon className="h-4 w-4" />
+                  <CursorArrowRaysIcon className="h-4 w-4" />
                   <span>resume.jpvalery.me</span>
                 </div>
               </div>
@@ -74,17 +71,18 @@ export default function Home() {
           <div className="col-gap-md col-fill-auto print:h-letter-col print:col-count-2 md:h-letter-col md:col-count-2">
             <div className="break-inside-avoid">
               <SectionTitle title="Experience" />
-
-              {experiences.map((experience) => {
-                return (
-                  <Experience
-                    company={experience.company}
-                    logo={experience.logo_url}
-                    location={experience.location}
-                    roles={experience.roles}
-                  />
-                );
-              })}
+              <div className="grid gap-4">
+                {experiences.map((experience) => {
+                  return (
+                    <Experience
+                      company={experience.company}
+                      logo={experience.logo_url}
+                      location={experience.location}
+                      roles={experience.roles}
+                    />
+                  );
+                })}
+              </div>
             </div>
             <div className="break-inside-avoid">
               <SectionTitle title="Affiliations" />

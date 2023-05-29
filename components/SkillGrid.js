@@ -3,7 +3,7 @@ export default function SectionTitle({ title, content }) {
     <>
       <section className="mb-4.5 break-inside-avoid">
         <header>
-          <h3 className="text-base font-medium capitalize leading-snugish text-stone-800">
+          <h3 className="text-base font-medium capitalize leading-snugish text-zinc-800">
             {title}
           </h3>
         </header>

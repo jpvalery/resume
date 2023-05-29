@@ -16,7 +16,7 @@
           "title": "Customer Success Team Lead",
           "start": "Jan 2022",
           "end": "May 2023",
-          "descriptionShort": "Led a team of CSMs in the Americas region while managing a book of 40+ strategic customers. Developed automations to monitor and increase team performance.",
+          "descriptionShort": "Led a team of CSMs in the Americas region while managing a book of 40+ strategic customers. Developed automations to monitor and increase team performance. Led migration from Vitally to Planhat",
           "descriptionLong": ""
         },
         {
@@ -93,14 +93,14 @@
           "title": "Product Marketing Manager",
           "start": "May 2016",
           "end": "Apr 2017",
-          "descriptionShort": "Led marketing efforts on multi-million dollars game. Managed partnerships with Apple, Google, Microsoft, and licensors. Kickstarted AppStore Optimization efforts.",
+          "descriptionShort": "Led marketing efforts on multi-million dollars games. Managed partnerships with Apple, Google, Microsoft, and licensors. Kickstarted AppStore Optimization efforts.",
           "descriptionLong": ""
         },
         {
           "title": "Community Manager",
           "start": "Oct 2014",
           "end": "May 2016",
-          "descriptionShort": "Managed social media, developed wikis, kickstarted streaming programs leading to a featuring on Twitch's homepage, grew email lists to over 500k subscribers.",
+          "descriptionShort": "Managed social media, developed wikis, spearheaded streaming programs leading to a featuring on Twitch's homepage, grew email lists to over 500k subscribers.",
           "descriptionLong": ""
         }
       ]
@@ -122,7 +122,7 @@
       "end": "Jun 2011",
       "field_of_study": "Economics",
       "degree_name": "Economics",
-      "school": "Centre International de Valbonne",
+      "school": "CIV",
       "school_linkedin_profile_url": null,
       "description": null,
       "logo_url": "/static/school.jpg"
@@ -176,11 +176,31 @@
     { "title": "languages", "content": ["French", "English"] },
     {
       "title": "software",
-      "content": ["Customer.io", "Segment", "Amplitude", "Vitally", "Autocode", "Zapier", "Notion"]
+      "content": [
+        "Customer.io",
+        "Segment",
+        "Planhat",
+        "Mixpanel",
+        "Amplitude",
+        "Vitally",
+        "Vercel",
+        "Zapier",
+        "Notion"
+      ]
     },
     {
       "title": "code",
-      "content": ["HTML", "CSS", "JavaScript", "Next", "Tailwind", "git", "REST API"]
+      "content": [
+        "Next",
+        "Tailwind",
+        "git",
+        "REST API",
+        "HTML",
+        "CSS",
+        "React",
+        "JavaScript",
+        "GraphQL"
+      ]
     }
   ]
 }
