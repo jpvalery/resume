@@ -79,6 +79,7 @@ export default function Home() {
                       logo={experience.logo_url}
                       location={experience.location}
                       roles={experience.roles}
+                      key={experience.company}
                     />
                   );
                 })}
@@ -119,6 +120,7 @@ export default function Home() {
                     start={item.start}
                     end={item.end}
                     logo={item.logo_url}
+                    key={item.name}
                   />
                 );
               })}
@@ -132,13 +134,14 @@ export default function Home() {
                     start={item.start}
                     end={item.end}
                     logo={item.logo_url}
+                    key={item.degree_name}
                   />
                 );
               })}
 
               <SectionTitle title="Skills" />
               {skills.map((item) => {
-                return <SkillGrid title={item.title} content={item.content} />;
+                return <SkillGrid title={item.title} content={item.content} key={item.title} />;
               })}
             </div>
           </div>

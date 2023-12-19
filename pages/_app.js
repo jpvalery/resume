@@ -7,12 +7,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="description" content="My online resume" />
         <meta name="keywords" content="resume,cv,Jp Valery" />
         <meta name="author" content="Jp Valery" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
       </Head>
       <Component {...pageProps} />
     </>

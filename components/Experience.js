@@ -26,7 +26,7 @@ export default function Experience({ company, logo, location, roles }) {
       <section>
         {roles.map((role) => {
           return (
-            <div className="pb-2">
+            <div className="pb-2" key={role.title}>
               <div className="inline-flex items-baseline gap-2">
                 <p className="text-md font-medium leading-normal text-zinc-950">
                   {role.title}

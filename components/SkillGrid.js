@@ -11,7 +11,7 @@ export default function SectionTitle({ title, content }) {
           <ul className="flex flex-wrap gap-2 text-md leading-relaxed">
             {content.map((item) => {
               return (
-                <li className="bg-gray-200 px-2.5 text-base text-gray-750 print:bg-white print:border-inset">
+                <li className="bg-gray-200 px-2.5 text-base text-gray-750 print:bg-white print:border-inset" key={item}>
                   {item}
                 </li>
               );
