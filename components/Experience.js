@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Experience({ company, logo, location, roles }) {
   return (
