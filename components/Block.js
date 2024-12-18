@@ -1,8 +1,8 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Block({ title, subtitle, logo, start, end }) {
   return (
-    <section className="mb-4.5 break-inside-avoid">
+    (<section className="mb-4.5 break-inside-avoid">
       <header className="grid grid-flow-col items-center justify-start gap-2">
         <div className="h-10 w-10">
           {logo && (
@@ -11,9 +11,12 @@ export default function Block({ title, subtitle, logo, start, end }) {
               alt={title}
               width="400"
               height="400"
-              objectFit="cover"
               className="rounded"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                objectFit: "cover"
+              }} />
           )}
         </div>
         <div>
@@ -28,6 +31,6 @@ export default function Block({ title, subtitle, logo, start, end }) {
           </div>
         </div>
       </header>
-    </section>
+    </section>)
   );
 }

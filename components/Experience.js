@@ -1,8 +1,8 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Experience({ company, logo, location, roles }) {
   return (
-    <section className="grid grid-flow-row gap-2 break-inside-avoid">
+    (<section className="grid grid-flow-row gap-2 break-inside-avoid">
       <header className="grid grid-flow-col items-center justify-start gap-2">
         <div className="h-10 w-10">
           {logo && (
@@ -11,9 +11,12 @@ export default function Experience({ company, logo, location, roles }) {
               alt={company}
               width="400"
               height="400"
-              objectFit="cover"
               className="rounded"
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+                objectFit: "cover"
+              }} />
           )}
         </div>
         <div className="gap grid grid-flow-row">
@@ -47,6 +50,6 @@ export default function Experience({ company, logo, location, roles }) {
           );
         })}
       </section>
-    </section>
+    </section>)
   );
 }
