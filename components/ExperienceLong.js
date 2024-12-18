@@ -42,7 +42,10 @@ export default function Experience({ company, logo, location, roles }) {
                 <p
                   className="text-sm leading-normal text-zinc-800"
                   dangerouslySetInnerHTML={{
-                    __html: role.descriptionLong != "" ? role.descriptionLong : role.descriptionShort,
+                    __html:
+                      role.descriptionLong != ""
+                        ? role.descriptionLong
+                        : role.descriptionShort,
                   }}
                 />
               )}

@@ -141,7 +141,13 @@ export default function Home() {
 
               <SectionTitle title="Skills" />
               {skills.map((item) => {
-                return <SkillGrid title={item.title} content={item.content} key={item.title} />;
+                return (
+                  <SkillGrid
+                    title={item.title}
+                    content={item.content}
+                    key={item.title}
+                  />
+                );
               })}
             </div>
           </div>
