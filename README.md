@@ -114,10 +114,10 @@ If you want to significantly speed up font loading time, find out what fonts you
 
 ```html
 <link
-  rel="preload"
-  href="./fonts/FiraGO-Regular.latin.woff2"
-  as="font"
-  crossorigin="anonymous"
+	rel="preload"
+	href="./fonts/FiraGO-Regular.latin.woff2"
+	as="font"
+	crossorigin="anonymous"
 />
 ```
 
