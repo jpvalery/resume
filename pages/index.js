@@ -25,7 +25,7 @@ export default function Home() {
 					description: 'Web-first printable resume for Jp Valery',
 					images: [
 						{
-							url: 'https://og.jpvalery.me/**Resume**.png?theme=dotme&md=1&fontSize=125px&images=https%3A%2F%2Fog.jpvalery.me%2Fstatic%2Fraccoon.svg&heights=300',
+							url: 'https://og.jpvalery.me/api/og/Resume',
 						},
 					],
 				}}
