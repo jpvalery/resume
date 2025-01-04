@@ -1,16 +1,16 @@
 import { NextSeo } from 'next-seo';
 
-import linkedin from '../content/linkedin.json';
+import content from '../content/source.json';
 
 import Block from '../components/Block';
 import Experience from '../components/Experience.js';
 import SectionTitle from '../components/SectionTitle.js';
 import SkillGrid from '../components/SkillGrid.js';
 
-const experiences = linkedin.experiences;
-const education = linkedin.education;
-const certifications = linkedin.certifications;
-const skills = linkedin.skills;
+const experiences = content.experiences;
+const education = content.education;
+const certifications = content.certifications;
+const skills = content.skills;
 
 import { AtSymbolIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
 
@@ -86,29 +86,6 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="break-inside-avoid">
-							<SectionTitle title="Affiliations" />
-							<Block
-								title="Pavilion"
-								subtitle="Associate Chapter Head"
-								logo="/static/pavilion.jpg"
-								start="Nov 2020"
-								end="Jan 2023"
-							/>
-							<Block
-								title="Tegus"
-								subtitle="Consultant"
-								logo="/static/tegus.jpg"
-								start="May 2021"
-								end=""
-							/>
-							<Block
-								title="GLG"
-								subtitle="Consultant"
-								logo="/static/glg.jpg"
-								start="Apr 2019"
-								end=""
-							/>
-
 							<SectionTitle title="Education & Certifications" />
 
 							{certifications.map((item) => {
@@ -131,8 +108,7 @@ export default function Home() {
 										title={item.degree_name}
 										subtitle={item.school}
 										description={item.shortDescription}
-										start={item.start}
-										end={item.end}
+										graduation={item.graduation}
 										logo={item.logo_url}
 										key={item.degree_name}
 									/>
@@ -149,6 +125,29 @@ export default function Home() {
 									/>
 								);
 							})}
+
+							<SectionTitle title="Affiliations" />
+							<Block
+								title="Pavilion"
+								subtitle="Associate Chapter Head"
+								logo="/static/pavilion.jpg"
+								start="Nov 2020"
+								end="Jan 2023"
+							/>
+							<Block
+								title="Tegus"
+								subtitle="Consultant"
+								logo="/static/tegus.jpg"
+								start="May 2021"
+								end=""
+							/>
+							<Block
+								title="GLG"
+								subtitle="Consultant"
+								logo="/static/glg.jpg"
+								start="Apr 2019"
+								end=""
+							/>
 						</div>
 					</div>
 					{/* end Column */}

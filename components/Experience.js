@@ -33,7 +33,7 @@ export default function Experience({ company, logo, location, roles }) {
 						<div className="pb-2" key={role.title}>
 							<div className="inline-flex items-baseline gap-2">
 								<p className="text-md font-medium leading-normal text-zinc-950">
-									{role.title}
+									{role.title.slice(0, 32)}
 								</p>
 								<p className="text-xs leading-normal text-zinc-600">
 									{role.end == ''
@@ -41,12 +41,12 @@ export default function Experience({ company, logo, location, roles }) {
 										: `${role.start} - ${role.end}`}
 								</p>
 							</div>
-
-							{role.descriptionShort && (
-								<p className="text-sm leading-normal text-zinc-800">
-									{role.descriptionShort}
-								</p>
-							)}
+							<ul className="space-y-0.5 text-pretty text-xs leading-normal text-zinc-800">
+								{role.description &&
+									role.description.map((detail) => {
+										return <li>· {detail}</li>;
+									})}
+							</ul>
 						</div>
 					);
 				})}

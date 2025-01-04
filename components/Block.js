@@ -1,6 +1,13 @@
 import Image from 'next/image';
 
-export default function Block({ title, subtitle, logo, start, end }) {
+export default function Block({
+	title,
+	subtitle,
+	logo,
+	start,
+	end,
+	graduation,
+}) {
 	return (
 		<section className="mb-4.5 break-inside-avoid">
 			<header className="grid grid-flow-col items-center justify-start gap-2">
@@ -25,9 +32,13 @@ export default function Block({ title, subtitle, logo, start, end }) {
 						{title}
 					</p>
 					<div className="inline-flex items-baseline gap-2">
-						<p className="text-base leading-normal text-zinc-700">{subtitle}</p>
+						<p className="text-sm leading-normal text-zinc-700">{subtitle}</p>
 						<p className="text-xs leading-normal text-zinc-600">
-							{end == '' ? `since ${start}` : `${start} - ${end}`}
+							{graduation != undefined
+								? `${graduation}`
+								: end == ''
+								? `since ${start}`
+								: `${start} - ${end}`}
 						</p>
 					</div>
 				</div>

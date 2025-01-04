@@ -1,0 +1,219 @@
+{
+	"executiveSummary": "Strategic Customer Success leader with 6+ years of experience building and scaling remote-first CS organizations. Pioneer in leveraging technical solutions to drive operational excellence, consistently identifying and implementing industry innovations ahead of market trends. Proven track record of scaling global teams while maintaining 130%+ NRR. Deep expertise in CS operations architecture, combining strategic leadership with hands-on technical implementation across modern CS tech stack.",
+	"experiences": [
+		{
+			"company": "Customer.io",
+			"logo_url": "/static/customerio.jpg",
+			"location": "Remote",
+			"roles": [
+				{
+					"title": "Success Team Manager, Mid-Market & Scale",
+					"start": "May 2023",
+					"end": "",
+					"description": [
+						"Lead global CS team with up to 17 direct and indirect reports across 4 continents with 100% team retention",
+						"Conduct bi-annual performance reviews and weekly 1:1s, achieving 7 promotions in the last 12 months",
+						"Oversee ~80% of accounts benefiting from CS services representing $40M+ Annual Recurring Revenue",
+						"Supported a doubling in volume of our Scale segment with no additional headcount through webinar programs and automation",
+						"Developed Next.js automations saving 2,000+ team hours annually",
+						"Architected parallel-processing account assignment system, eliminating single points of failure and accelerating time-to-value for all stakeholders",
+						"Implemented integrations between key platforms (Gong, Planhat, Slack, Zendesk)",
+						"Drive cross-functional strategic initiatives with Product, Engineering, Account Management, and Sales teams"
+					]
+				},
+				{
+					"title": "Customer Success Team Lead",
+					"start": "Jan 2022",
+					"end": "May 2023",
+					"description": [
+						"Managed largest customer portfolio among team leads, achieving double-digit YoY growth",
+						"Led successful migration from Vitally to Planhat, optimizing CS operations",
+						"Mentored and developed high-performing team of CSMs",
+						"Spearheaded onboarding process improvements and team development initiatives"
+					]
+				},
+				{
+					"title": "Customer Success Manager",
+					"start": "Apr 2021",
+					"end": "Jan 2022",
+					"description": [
+						"Managed strategic portfolio of 50+ accounts",
+						"Consistently exceeded NRR targets (145% vs 110% goal)",
+						"Redesigned customer health score methodology"
+					]
+				}
+			]
+		},
+		{
+			"company": "Local Logic",
+			"logo_url": "/static/locallogic.jpg",
+			"location": "Remote",
+			"roles": [
+				{
+					"title": "Manager, Growth Operations",
+					"start": "Feb 2020",
+					"end": "Feb 2021",
+					"description": [
+						"Built Customer and Growth functions supporting successful $8M Series A raise",
+						"Implemented GTM stack yielding 60% cost savings and 100% activation rate improvement",
+						"Reduced activation time by 50% through automated user journeys",
+						"Led migration from Webflow to Next.js + GraphCMS"
+					]
+				}
+			]
+		},
+		{
+			"company": "LANDR",
+			"logo_url": "/static/landr.jpg",
+			"location": "Montréal, QC (Canada)",
+			"roles": [
+				{
+					"title": "Growth Architect",
+					"start": "Oct 2019",
+					"end": "Feb 2020",
+					"description": [
+						"Led technical operations delivering 10M+ emails and 12M in-app messages annually",
+						"Served as technical lead for Customer Experience and Monetization team",
+						"Defined and executed growth strategies across multiple channels"
+					]
+				},
+				{
+					"title": "Customer Success Manager",
+					"start": "May 2019",
+					"end": "Oct 2019",
+					"description": [
+						"Built automated workflow reducing campaign deployment time by 85%",
+						"Implemented ML-driven churn prediction reducing customer churn by 15%",
+						"Created multi-language localization system supporting 6 languages"
+					]
+				},
+				{
+					"title": "Customer Success Specialist",
+					"start": "Aug 2018",
+					"end": "Apr 2019",
+					"description": [
+						"Refactored all customer journeys interactions and touchpoints",
+						"Led migration from Intercom and AppCues to Customer.io",
+						"Built a documentation system for the team"
+					]
+				}
+			]
+		}
+	],
+	"education": [
+		{
+			"graduation": "Jul 2014",
+			"field_of_study": "Marketing/Marketing Management, General",
+			"degree_name": "M.Sc Marketing & Management",
+			"school": "KEDGE Business School",
+			"school_linkedin_profile_url": null,
+			"description": null,
+			"logo_url": "/static/kedge.jpg"
+		}
+	],
+	"certifications": [
+		{
+			"start": "Aug 2022",
+			"end": "",
+			"name": "Chief Customer Officer (CCO) School",
+			"license_number": null,
+			"display_source": "google.com",
+			"authority": "Pavilion",
+			"url": "https://drive.google.com/file/d/1PzFCqB_PHnMqhiZaQpEkKnj-GJ6I07ZP/view?usp=drivesdk",
+			"logo_url": "/static/pavilion.jpg"
+		},
+		{
+			"start": "Jul 2021",
+			"end": "",
+			"name": "Revenue Growth Architecture School",
+			"license_number": null,
+			"display_source": "google.com",
+			"authority": "Winning by Design",
+			"url": "https://drive.google.com/file/d/1Fz2UGd1Q3urEMyQise5X57tNw-OCgkS_/view?usp=drivesdk",
+			"logo_url": "/static/winningbydesign.jpg"
+		},
+		{
+			"start": "Sep 2020",
+			"end": "",
+			"name": "Certified Incident Responder",
+			"license_number": "t2j26qgz7fe9",
+			"display_source": "skilljar.com",
+			"authority": "PagerDuty",
+			"url": "https://verify.skilljar.com/c/t2j26qgz7fe9",
+			"logo_url": "/static/pagerduty.jpg"
+		}
+	],
+	"recommendations": [
+		"Victoria S.",
+		"It is hard to beat the good fortune of having a manager like Jp. He is generous with his time, leads by example, and actively seeks ways to bring the best out of you. His talent and work ethic are eclipsed only by his care and humility. Jp is the kind of person who will go the extra mile for you, and at the same time, pave the way for you to walk your own path. He has been one of my greatest teachers, and I would recommend him without reservation. ",
+		"Laura MacDonald, CPA",
+		"Jp is a renaissance man for the modern age! His problem solving and automation skills helped me find my way out of complex problems more than once. I loved working with him.",
+		"Priscilla Yee, CPA, CA",
+		"I’ve had the pleasure of working with JP for a little over a year at LANDR. During that time, although we were not in the same department, I witnessed JP continuously go above and beyond the call of duty. He took on every challenge with a positive attitude and worked tirelessly to deliver every single time. In a very short time frame, he established himself as a key player within his department. Not only did he do his work extremely well, but he genuinely cared about the projects that he was involved in. ",
+		"In my opinion, companies should be built with people like JP; individuals who have the skillset to do the work required, the passion to continuously strive for improvement, and the respect of their peers to foster teamwork and get results. I would not hesitate to recommend JP; any company would be lucky to have a person like him in the fold. ",
+		"Sophie C.",
+		"To this day, I am still so impressed with JP's meticulous work ethic and observation skills. The devil is in the details, and JP will be the first one to point out the flaws and finding creative solutions to address them, from campaign creation to team management.",
+		"My transition into a Sales driven department was largely fast-track by JP's keenness in onboarding, as well as his eloquence and fluency in diverse skills touching UX, A/B testing, HTML/CSS, and so on.",
+		"I'm happily recommending him to any employers who are looking for a polyvalent and adaptable professional.",
+		"Vanessa Salvo",
+		"JP joined LANDR at a time when our Customer Success team was going through a challenging transition phase. He faced the challenge relentlessly and proved himself time and time again as someone who cares a lot about his work. The effort he puts into things is mind-boggling. He goes the extra mile to solve a problem and has a positive, collaborative attitude. When you work with JP, it always feels like you're moving forward...and fast. It was a pleasure working with him and any organization would be lucky to have him. ",
+		"Roxana Georgiana Rascanu",
+		"I have collaborate with Jean Pierre on several projects like Dungeon Hunter 5 and Gangstar New Orleans, and I can certainly point out his ability to deliver the assets requested in time and in good quality. He showed exceptional professionalism, dynamism and has solid skills in his field of expertise.\r",
+		"It was an immense pleasure to work with him - he is reliable, hardworking and very honest :). ",
+		"Gwennaëlle Dugand",
+		"I had the opportunity to work with JP at Point Zero. It was a pleasure, a great colleague, very professional. \r",
+		"Great in building analysis, giving relevant solutions to solve problems. \r",
+		"Not afraid to work and good team player.",
+		"Ryan Changes",
+		"I worked with Jp consistently during my time at Gameloft, and on some of the company's biggest games. Jp was always an asset to any project or task I worked with him on. From high quality work, effective communication, and new ideas on how to shake things up, Jp was a true professional. With all of that said, I firmly believe Jp is a great addition to any team he is on, and I look forward to the day where our paths cross again!",
+		"Kieran O'Leary",
+		"Ma collaboration avec Jean-Pierre est de celles que l'on envie. Community Manager passionne, au fait des dernieres tendances et innovations dans son domaine et dans le monde digitale au sens large, il est egalement d'une aide precieuse de par ses competences en developpement web et son expertise des outils graphiques. En somme, une personne dont la contribution est d'une aide precieuse dans toutes les situations qui appellent a etre creatif, et professionnel.",
+		"Pierre Morizot - Hiring",
+		"I had the opportunity to work with Jp on a bunch of courses and workshop. On top of being a great and key element in a team, Jp is very knowledgeable on everything which is link to digital and IT. \r",
+		"Jp is aslo very reliable person, he always deliver on his promise !"
+	],
+	"skills": [
+		{ "title": "languages", "content": ["French", "English", "High Valyrian"] },
+		{
+			"title": "CS Operations",
+			"content": [
+				"Customer.io",
+				"Planhat",
+				"Segment",
+				"Mixpanel",
+				"Amplitude",
+				"Vitally",
+				"Zendesk",
+        "HelpScout",
+        "Salesforce"
+			]
+		},
+		{
+			"title": "Productivity",
+			"content": [
+				"Notion",
+				"Zapier",
+				"Gsuite",
+				"Slack",
+				"Zoom",
+				"ChatGPT",
+				"Claude.AI"
+			]
+		},
+		{
+			"title": "Development",
+			"content": [
+				"Next",
+				"Tailwind",
+				"git",
+				"REST API",
+				"HTML",
+				"CSS",
+				"React",
+				"JavaScript",
+				"GraphQL",
+				"Vercel"
+			]
+		}
+	]
+}
