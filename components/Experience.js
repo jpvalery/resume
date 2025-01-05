@@ -43,8 +43,8 @@ export default function Experience({ company, logo, location, roles }) {
 							</div>
 							<ul className="space-y-0.5 text-pretty text-xs leading-normal text-zinc-800">
 								{role.description &&
-									role.description.map((detail) => {
-										return <li>· {detail}</li>;
+									role.description.map((detail, index) => {
+										return <li key={index}>· {detail}</li>;
 									})}
 							</ul>
 						</div>
