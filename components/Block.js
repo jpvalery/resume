@@ -18,7 +18,7 @@ export default function Block({
 							alt={title}
 							width="400"
 							height="400"
-							className="rounded"
+							className="rounded-sm"
 							style={{
 								maxWidth: '100%',
 								height: 'auto',
@@ -28,7 +28,7 @@ export default function Block({
 					)}
 				</div>
 				<div>
-					<p className="text-lg font-semibold leading-snugish text-zinc-800">
+					<p className="leading-snugish text-lg font-semibold text-zinc-800">
 						{title}
 					</p>
 					<div className="inline-flex items-baseline gap-2">

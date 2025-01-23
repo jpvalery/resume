@@ -32,11 +32,11 @@ export default function Home() {
 			/>
 			<main className="hyphens-manual">
 				{/* Page */}
-				<div className="page mx-auto max-w-2xl bg-white p-6 xsm:p-8 sm:p-9 md:h-letter md:max-w-letter md:p-16 print:max-w-letter">
+				<div className="page xsm:p-8 md:h-letter md:max-w-letter print:max-w-letter mx-auto max-w-2xl bg-white p-6 sm:p-9 md:p-16">
 					{/* Name */}
 					<header className="mb-6 flex items-center md:mb-11">
 						<div
-							className="initials-container mr-5 bg-zinc-800 px-3 text-base font-medium leading-none text-white print:bg-black"
+							className="initials-container mr-5 bg-zinc-800 px-3 text-base leading-none font-medium text-white print:bg-black"
 							style={{ paddingBottom: '0.6875rem', paddingTop: '0.6875rem' }}
 						>
 							<div
@@ -48,7 +48,7 @@ export default function Home() {
 							<div className="initial text-center">P</div>
 						</div>
 						<div>
-							<h1 className="pb-px text-4xl font-bold uppercase text-zinc-900">
+							<h1 className="pb-px text-4xl font-bold text-zinc-900 uppercase">
 								Jp Valery
 							</h1>
 							<div className="flex gap-2 font-mono text-sm">

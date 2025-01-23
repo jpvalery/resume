@@ -11,7 +11,7 @@ export default function Experience({ company, logo, location, roles }) {
 							alt={company}
 							width="400"
 							height="400"
-							className="rounded"
+							className="rounded-sm"
 							style={{
 								maxWidth: '100%',
 								height: 'auto',
@@ -21,10 +21,10 @@ export default function Experience({ company, logo, location, roles }) {
 					)}
 				</div>
 				<div className="gap grid grid-flow-row">
-					<h3 className="text-lg font-semibold leading-snugish text-zinc-800">
+					<h3 className="leading-snugish text-lg font-semibold text-zinc-800">
 						{company}
 					</h3>
-					<p className="text-sm leading-snugish text-zinc-700">{location}</p>
+					<p className="leading-snugish text-sm text-zinc-700">{location}</p>
 				</div>
 			</header>
 			<section>
@@ -32,7 +32,7 @@ export default function Experience({ company, logo, location, roles }) {
 					return (
 						<div className="pb-2" key={role.title}>
 							<div className="inline-flex items-baseline gap-2">
-								<p className="text-md font-medium leading-normal text-zinc-950">
+								<p className="text-md leading-normal font-medium text-zinc-950">
 									{role.title.slice(0, 32)}
 								</p>
 								<p className="text-xs leading-normal text-zinc-600">
@@ -41,7 +41,7 @@ export default function Experience({ company, logo, location, roles }) {
 										: `${role.start} - ${role.end}`}
 								</p>
 							</div>
-							<ul className="space-y-0.5 text-pretty text-xs leading-normal text-zinc-800">
+							<ul className="space-y-0.5 text-xs leading-normal text-pretty text-zinc-800">
 								{role.description &&
 									role.description.map((detail, index) => {
 										return <li key={index}>· {detail}</li>;

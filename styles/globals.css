@@ -1,8 +1,27 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+/* @import 'docs/fira-go.css' layer(base); */
+@import 'tailwindcss';
 
-@screen print {
+@config '../tailwind.config.js';
+
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+}
+
+@media print {
   @page {
     margin-top: 0in;
     margin-bottom: 0in;
@@ -12,12 +31,12 @@
 
   body {
     -webkit-print-color-adjust: exact !important;
-    print-color-adjust: exact !important;
+    color-adjust: exact !important;
     color: black !important;
   }
 
   .page {
-    padding: theme(spacing.16) theme(spacing.16) !important;
+    padding: --spacing(16) --spacing(16) !important;
   }
 
   .initial {
@@ -44,7 +63,7 @@ html {
 
 /* For Letter size */
 
-@screen sm {
+@media (width >= theme(--breakpoint-sm)) {
   html {
     font-size: calc(
       13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640)
@@ -52,7 +71,7 @@ html {
   }
 }
 
-@screen md {
+@media (width >= theme(--breakpoint-md)) {
   html {
     font-size: calc(
       12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833)
@@ -74,7 +93,7 @@ html {
   }
 } */
 
-@screen lg {
+@media (width >= theme(--breakpoint-lg)) {
   html {
     font-size: 16px;
   }

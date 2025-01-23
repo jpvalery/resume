@@ -3,16 +3,16 @@ export default function SectionTitle({ title, content }) {
 		<>
 			<section className="mb-4.5 break-inside-avoid">
 				<header>
-					<h3 className="text-base font-medium capitalize leading-snugish text-zinc-800">
+					<h3 className="leading-snugish text-base font-medium text-zinc-800 capitalize">
 						{title}
 					</h3>
 				</header>
 				<div className="my-2 last:pb-1.5">
-					<ul className="flex flex-wrap gap-2 text-md leading-relaxed">
+					<ul className="text-md flex flex-wrap gap-2 leading-relaxed">
 						{content.map((item) => {
 							return (
 								<li
-									className="bg-gray-200 px-2.5 text-base text-gray-750 print:bg-white print:border-inset"
+									className="text-gray-750 print:border-inset bg-gray-200 px-2.5 text-base print:bg-white"
 									key={item}
 								>
 									{item}
