@@ -36,7 +36,7 @@ export default function Experience({ company, logo, location, roles }) {
 									{role.title.slice(0, 32)}
 								</p>
 								<p className="text-xs leading-normal text-zinc-600">
-									{role.end == ''
+									{role.end === ''
 										? `since ${role.start}`
 										: `${role.start} - ${role.end}`}
 								</p>
