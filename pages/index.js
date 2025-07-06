@@ -13,6 +13,8 @@ const certifications = content.certifications;
 const skills = content.skills;
 
 import { AtSymbolIcon, CursorArrowRaysIcon } from '@heroicons/react/20/solid';
+import { CheckBadgeIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link.js';
 
 export default function Home() {
 	return (
@@ -63,6 +65,15 @@ export default function Home() {
 									<CursorArrowRaysIcon className="h-4 w-4" />
 									<span>resume.jpvalery.me</span>
 								</div>
+
+								<span>|</span>
+
+								<Link href="https://jpvalery.me/work/recommendations">
+									<div className="flex items-center gap-1">
+										<CheckBadgeIcon className="h-4 w-4" />
+										<span>/recommendations</span>
+									</div>
+								</Link>
 							</div>
 						</div>
 					</header>
