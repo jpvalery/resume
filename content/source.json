@@ -10,7 +10,13 @@
 					"title": "Customer Success Engineer",
 					"start": "Feb 2025",
 					"end": "",
-					"description": []
+					"description": [
+						"Joined Resend as employee #13—one of the foundational hires shaping customer experience as the company scaled.",
+						"Supported 5x customer, revenue, and ticket volume growth without adding headcount",
+						"Cut resolution time by 70%",
+						"Automated ~25% of all customer interactions",
+						"Shipped 73 PRs to the core product"
+					]
 				}
 			]
 		},
@@ -25,13 +31,11 @@
 					"end": "Feb 2025",
 					"description": [
 						"Lead global CS team with up to 17 direct and indirect reports across 4 continents with 100% team retention",
-						"Conduct bi-annual performance reviews and weekly 1:1s, achieving 7 promotions in the last 12 months",
 						"Oversee ~80% of accounts benefiting from CS services representing $40M+ Annual Recurring Revenue",
+						"Conduct bi-annual performance reviews and weekly 1:1s, achieving 7 promotions in 12 months",
 						"Supported a doubling in volume of our Scale segment with no additional headcount through webinar programs and automation",
-						"Developed Next.js automations saving 2,000+ team hours annually",
-						"Architected parallel-processing account assignment system, eliminating single points of failure and accelerating time-to-value for all stakeholders",
-						"Implemented integrations between key platforms (Gong, Planhat, Slack, Zendesk)",
-						"Drive cross-functional strategic initiatives with Product, Engineering, Account Management, and Sales teams"
+						"Developed Next.js automations and integrations between key platforms saving 2,000+ team hours annually",
+						"Architected parallel-processing account assignment system, eliminating single points of failure and accelerating time-to-value for all stakeholders"
 					]
 				},
 				{
@@ -39,10 +43,8 @@
 					"start": "Jan 2022",
 					"end": "May 2023",
 					"description": [
-						"Managed largest customer portfolio among team leads while leading a team in the Americas region",
 						"Led successful migration from Vitally to Planhat, optimizing CS operations",
-						"Mentored and developed high-performing team of CSMs",
-						"Spearheaded onboarding process improvements and team development initiatives"
+						"Mentored and developed high-performing team of CSMs, while managing largest customer portfolio among leads"
 					]
 				},
 				{
@@ -50,9 +52,7 @@
 					"start": "Apr 2021",
 					"end": "Jan 2022",
 					"description": [
-						"Managed strategic portfolio of 50+ accounts",
-						"Consistently exceeded NRR targets (145% vs 110% goal)",
-						"Redesigned customer health score methodology"
+						"Managed strategic portfolio of 50+ accounts while exceeding NRR targets (145% vs 110% goal)"
 					]
 				}
 			]
@@ -69,8 +69,7 @@
 					"description": [
 						"Built Customer and Growth functions supporting successful $8M Series A",
 						"Implemented GTM stack yielding 60% cost savings and 100% activation rate improvement",
-						"Reduced activation time by 50% through automated user journeys",
-						"Led migration from Webflow to Next.js + GraphCMS"
+						"Reduced activation time by 50% through automated user journeys"
 					]
 				}
 			]
@@ -152,11 +151,34 @@
 		}
 	],
 	"skills": [
-		{ "title": "languages", "content": ["French", "English", "High Valyrian"] },
+		{
+			"title": "AI",
+			"content": ["Claude Code", "Skills", "Agents", "RAG"]
+		},
+		{
+			"title": "Development",
+			"content": [
+				"Next",
+				"Tailwind",
+				"git",
+				"REST API",
+				"React",
+				"JavaScript",
+				"GraphQL",
+				"Vercel",
+				"Linear"
+			]
+		},
+		{
+			"title": "languages",
+			"content": ["French", "English", "High Valyrian"]
+		},
 		{
 			"title": "CS Operations",
 			"content": [
 				"Plain",
+				"Posthog",
+				"Retool",
 				"Customer.io",
 				"Planhat",
 				"Segment",
@@ -172,28 +194,11 @@
 			"title": "Productivity",
 			"content": [
 				"Notion",
+				"Raycast",
 				"Zapier",
-				"Gsuite",
+				"Google Workspace",
 				"Slack",
-				"Zoom",
-				"ChatGPT",
-				"Claude.AI"
-			]
-		},
-		{
-			"title": "Development",
-			"content": [
-				"Next",
-				"Tailwind",
-				"git",
-				"REST API",
-				"HTML",
-				"CSS",
-				"React",
-				"JavaScript",
-				"GraphQL",
-				"Vercel",
-				"Linear"
+				"Zoom"
 			]
 		}
 	]

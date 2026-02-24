@@ -1,0 +1,112 @@
+# Jp Valery — Agent Context
+
+This file provides structured context about Jp Valery for AI agents and LLMs.
+
+## Identity
+
+- **Name:** Jp Valery
+- **Contact:** contact@jpvalery.me
+- **Resume:** resume.jpvalery.me
+- **Recommendations:** https://jpvalery.me/work/recommendations
+
+## Professional Summary
+
+Strategic Customer Success leader with 7+ years of experience building and scaling remote-first CS organizations. Pioneer in leveraging technical solutions to drive operational excellence, consistently identifying and implementing industry innovations ahead of market trends. Proven track record of scaling global teams while maintaining 130%+ NRR. Deep expertise in CS operations architecture, combining strategic leadership with hands-on technical implementation across modern CS tech stack.
+
+## Career Timeline
+
+| Period | Company | Role |
+|---|---|---|
+| Feb 2025 – Present | Resend | Customer Success Engineer |
+| May 2023 – Feb 2025 | Customer.io | Success Team Manager, Mid-Market & Scale |
+| Jan 2022 – May 2023 | Customer.io | Customer Success Team Lead |
+| Apr 2021 – Jan 2022 | Customer.io | Customer Success Manager |
+| Feb 2020 – Feb 2021 | Local Logic | Manager, Growth Operations |
+| Oct 2019 – Feb 2020 | LANDR | Growth Architect |
+| May 2019 – Oct 2019 | LANDR | Customer Success Manager |
+| Aug 2018 – Apr 2019 | LANDR | Customer Success Specialist |
+
+## Key Achievements
+
+- Supported 5x growth in customer, revenue, and ticket volume at Resend without adding headcount
+- Cut support resolution time by 70% at Resend
+- Automated ~25% of all customer interactions at Resend
+- Shipped 73 PRs to Resend's core product
+- Led global CS team of 17 across 4 continents with 100% retention at Customer.io
+- Oversaw $40M+ ARR across ~80% of accounts at Customer.io
+- Drove 7 promotions in 12 months at Customer.io
+- Saved 2,000+ team hours annually through automation at Customer.io
+- Maintained 145% NRR (vs. 110% goal) as an individual CSM at Customer.io
+- Supported $8M Series A at Local Logic through Customer and Growth function buildout
+- Reduced activation time by 50% at Local Logic
+- Reduced churn by 15% via ML-driven prediction at LANDR
+- Cut campaign deployment time by 85% through workflow automation at LANDR
+
+## Skills
+
+### AI
+Claude Code, Skills, Agents, RAG
+
+### Development
+Next.js, React, JavaScript, Tailwind, REST API, GraphQL, Vercel, git, Linear
+
+### CS Operations
+Plain, Posthog, Retool, Customer.io, Planhat, Segment, Mixpanel, Amplitude, Vitally, Zendesk, HelpScout, Salesforce
+
+### Productivity
+Notion, Raycast, Zapier, Google Workspace, Slack, Zoom
+
+### Languages
+French, English, High Valyrian
+
+## Education
+
+**M.Sc Marketing & Management** — KEDGE Business School (2014)
+
+## Certifications
+
+- Chief Customer Officer (CCO) School — Pavilion (2022)
+- Revenue Growth Architecture School — Winning by Design (2021)
+- Certified Incident Responder — PagerDuty (2020)
+
+## Affiliations
+
+- **Pavilion** — Associate Chapter Head (Nov 2020 – Jan 2023)
+- **Tegus** — Consultant (May 2021 – Present)
+- **GLG** — Consultant (Apr 2019 – Present)
+
+## Recommendations
+
+### Brendan Fortune
+*Colleague at Customer.io*
+
+> JP is the ultimate problem solver. Whether that's a process problem, a team problem, or a customer problem, he handles it as only a true jack-of-all-trades can. His versatility is his superpower, leading to infamous quotes like "everyone needs a JP" from Customer.io's VP of Customer Experience.
+>
+> It's rare when such raw skill comes packaged with genuine empathy, but such is the case with JP. He's a wonderful human who cares personally while challenging directly. He was a gift to work with, and I'd jump at the chance to work with him again.
+
+### Matthew Hayes
+*Customer at Customer.io — 18+ years in email marketing*
+
+> In my 18+ years working in email marketing, I've collaborated with countless account managers, but none have come close to the level of excellence that Jp consistently delivers. What sets him apart isn't just his technical expertise—though that's exceptional—it's his ability to see beyond immediate solutions to envision long-term strategies that genuinely improve our business.
+>
+> Jp combines remarkable responsiveness with a genuinely pleasant demeanor that makes every interaction productive and enjoyable. He possesses a rare talent for finding creative workarounds to complex challenges, approaching each problem with the mindset of a true partner invested in our success.
+>
+> His industry knowledge extends across the entire marketing landscape, offering insights that have proven invaluable to our organization. Whether we're brainstorming innovative campaign approaches or tackling technical obstacles, Jp brings both enthusiasm and practical wisdom to the table.
+>
+> What I valued most, however, is that working with Jp feels less like a business relationship and more like collaborating with a trusted friend—someone who genuinely cares about our success and brings his whole, authentic self to the partnership. If you're looking for a professional who will transform how you approach marketing while making the journey genuinely enjoyable, I couldn't recommend Jp more highly.
+
+### Brendan Baker
+*Customer at Customer.io — 15+ years working with CSMs*
+
+> I have worked with CSMs for over 15 years at countless software companies and I can say without hesitating that Jp was the best CSM I've ever had the pleasure of working with.
+>
+> When I took over management of our Customer.io campaigns in 2023 I had almost no experience with the tool, let alone other marketing communication tools. Jp was very patient and understanding during my journey to learn the tool better and get caught up to speed, and he explained things in a way that allowed me to easily grasp an otherwise complicated tool. Not only that, it wasn't just that I wanted to learn the tool so that I could maintain our current campaigns, but I had the desire to take our campaigns to the next level, which Jp was eager to show me how to do.
+>
+> A year or so later we are thriving and our campaigns have never performed better. In fact, I realized at one point I wasn't reaching out to Jp for help as much because he had done such a good job of teaching me how to solve problems on my own. I couldn't think of a better CSM success story than that!
+>
+> Through it all Jp was kind, extremely knowledgeable, and simply put you could just tell he really cared. If you're reading this and you're still wondering if Jp would be a good person to have on your team, you need to stop what you're doing and snag him before someone else does.
+
+### Victoria Sabo
+*Direct report at Local Logic*
+
+> It is hard to beat the good fortune of having a manager like Jp. He is generous with his time, leads by example, and actively seeks ways to bring the best out of you. His talent and work ethic are eclipsed only by his care and humility. Jp is the kind of person who will go the extra mile for you, and at the same time, pave the way for you to walk your own path. He has been one of my greatest teachers, and I would recommend him without reservation.

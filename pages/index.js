@@ -1,11 +1,9 @@
 import { NextSeo } from 'next-seo';
-
-import content from '../content/source.json';
-
 import Block from '../components/Block';
 import Experience from '../components/Experience.js';
 import SectionTitle from '../components/SectionTitle.js';
 import SkillGrid from '../components/SkillGrid.js';
+import content from '../content/source.json';
 
 const experiences = content.experiences;
 const education = content.education;
@@ -97,6 +95,17 @@ export default function Home() {
 							</div>
 						</div>
 						<div className="break-inside-avoid">
+							<SectionTitle title="Skills" />
+							{skills.map((item) => {
+								return (
+									<SkillGrid
+										title={item.title}
+										content={item.content}
+										key={item.title}
+									/>
+								);
+							})}
+
 							<SectionTitle title="Education & Certifications" />
 
 							{certifications.map((item) => {
@@ -122,17 +131,6 @@ export default function Home() {
 										graduation={item.graduation}
 										logo={item.logo_url}
 										key={item.degree_name}
-									/>
-								);
-							})}
-
-							<SectionTitle title="Skills" />
-							{skills.map((item) => {
-								return (
-									<SkillGrid
-										title={item.title}
-										content={item.content}
-										key={item.title}
 									/>
 								);
 							})}
