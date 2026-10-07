@@ -15,6 +15,7 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
+		"pdf": "astro build && node scripts/pdf.mjs",
 		"lint": "biome check .",
 		"lint:fix": "biome check --write .",
 		"format": "biome check --write ."
@@ -29,6 +30,7 @@
 		"tailwindcss": "4.3.3"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.14"
+		"@biomejs/biome": "2.5.14",
+		"playwright": "1.63.0"
 	}
 }

@@ -35,6 +35,14 @@ Build the static site into `dist/`:
 pnpm build
 ```
 
+Regenerate the downloadable PDF (`public/resume.pdf`, served at `/pdf`) after any content change, and commit it:
+
+```
+pnpm pdf
+```
+
+It prints locally rather than on Vercel because the page uses the system font, and it fails if the layout no longer fits on one Letter page.
+
 Lint and format with Biome:
 
 ```
