@@ -43,6 +43,8 @@ pnpm pdf
 
 It prints locally rather than on Vercel because the page uses the system font, and it fails if the layout no longer fits on one Letter page.
 
+A pre-commit hook (`.githooks/pre-commit`, enabled by `pnpm install`) runs this automatically whenever a commit touches `content/`, `src/`, or the Tailwind or Astro config, and adds the new PDF to the same commit.
+
 Lint and format with Biome:
 
 ```

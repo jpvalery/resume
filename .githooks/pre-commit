@@ -1,0 +1,15 @@
+#!/bin/sh
+# Regenerate public/resume.pdf when a commit changes what the page renders,
+# so the PDF served at /pdf never drifts from the site. The PDF is printed
+# from the working tree, so unstaged edits to these files end up in it too.
+# Skip once with `git commit --no-verify`.
+
+if git diff --cached --name-only |
+	grep -qE '^(content/|src/|tailwind\.config\.cjs$|astro\.config\.mjs$)'; then
+	echo "pre-commit: regenerating public/resume.pdf"
+	if ! pnpm --silent pdf; then
+		echo "pre-commit: PDF generation failed, commit aborted" >&2
+		exit 1
+	fi
+	git add public/resume.pdf
+fi
