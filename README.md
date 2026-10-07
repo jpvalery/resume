@@ -1,4 +1,4 @@
-Forked from WebPraktikos/universal-resume and adapted for Next
+Forked from WebPraktikos/universal-resume and adapted for Astro (static, no client JavaScript)
 
 ## Universal Résumé Template
 
@@ -17,37 +17,29 @@ I couldn’t find any formal or professional résumé (CV) website with good typ
 
 ## How to run it
 
-Navigate to the base directory:
-
-```
-cd universal-resume
-```
-
 Install the dependencies:
 
 ```
-npm install
+pnpm install
 ```
 
 Start the development server:
 
 ```
-npm run serve
+pnpm dev
 ```
 
-Only generate CSS that is used on the page which results in a much smaller file size:
+Build the static site into `dist/`:
 
 ```
-npm run build
+pnpm build
 ```
 
 ## Starting Point
 
-`docs/index.html` is the main content file. By copying HTML: add pages, sections, subsection, and other parts.
+`content/source.json` holds all the résumé content (headline, experience, skills, education, affiliations, quotes). `src/pages/index.astro` lays it out and `src/components/` holds the building blocks. Company logos live in `src/assets/logos/` and are resized at build time.
 
-`npm run build` will make the **docs** directory ready for drag-n-drop to, for example, https://app.netlify.com/drop (free registration required beforehand).
-
-Also, with additionally running `git add docs/styles.css -f` and committing changes, it’s ready for push to GitHub and integration with GitHub Pages. GitHub Pages are free for public repositories. Under your repository name, not profile, click “Settings” and enable GitHub Pages by navigating to: `Options → GitHub Pages → Source → /docs`.
+`public/llms.txt` and `public/agents.md` mirror the content for AI agents; update them alongside `source.json`.
 
 ## Tailwind CSS
 

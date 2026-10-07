@@ -31,7 +31,7 @@ module.exports = {
 			},
 			height: {
 				letter: '85.9375rem',
-				'letter-col': '71.625rem',
+				'letter-col': '69.75rem',
 				'letter-col-full': '77.9375rem',
 			},
 			spacing: {

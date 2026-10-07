@@ -1,0 +1,153 @@
+---
+import CompactList from '../components/CompactList.astro';
+import Experience from '../components/Experience.astro';
+import Icon from '../components/Icon.astro';
+import Quotes from '../components/Quotes.astro';
+import SectionTitle from '../components/SectionTitle.astro';
+import Skills from '../components/Skills.astro';
+import Layout from '../layouts/Layout.astro';
+import content from '../../content/source.json';
+
+const {
+	headline,
+	executiveSummary,
+	experiences,
+	earlier,
+	education,
+	certifications,
+	skills,
+	affiliations,
+	quotes,
+} = content;
+
+const credentials = [
+	...education.map((item) => ({
+		name: item.degree_name,
+		detail: item.school,
+		date: item.graduation,
+	})),
+	...certifications.map((item) => ({
+		name: item.name,
+		detail: item.authority,
+		date: item.start,
+	})),
+];
+---
+
+<Layout
+	title="Jp Valery — Resume"
+	description={executiveSummary}
+	ogTitle={`Jp Valery — ${headline}`}
+>
+	<main class="hyphens-manual">
+		{/* Page */}
+		<div class="page xsm:p-8 md:h-letter md:max-w-letter print:max-w-letter mx-auto max-w-2xl bg-white p-6 sm:p-9 md:p-16">
+			{/* Name */}
+			<header class="mb-6 md:mb-11 print:mb-1">
+				<div>
+					<h1 class="pb-px text-4xl font-bold text-zinc-900 uppercase">
+						Jp Valery
+					</h1>
+					<div class="mt-1 flex flex-col gap-1.5">
+						<p class="text-base leading-snug font-medium text-zinc-700">
+							{headline}
+						</p>
+						<div class="flex flex-wrap gap-x-2 font-mono text-sm">
+							<div class="flex items-center gap-1">
+								<Icon name="atSymbol" />
+								<span>contact@jpvalery.me</span>
+							</div>
+
+							<span>|</span>
+
+							<div class="flex items-center gap-1">
+								<Icon name="cursorArrowRays" />
+								<span>resume.jpvalery.me</span>
+							</div>
+
+							<span>|</span>
+
+							<a href="https://jpvalery.me/work/recommendations">
+								<div class="flex items-center gap-1">
+									<Icon name="checkBadge" />
+									<span>/recommendations</span>
+								</div>
+							</a>
+						</div>
+						<div class="flex flex-wrap gap-x-2 font-mono text-sm">
+							<div class="flex items-center gap-1">
+								<Icon name="mapPin" />
+								<span>Montréal · Remote</span>
+							</div>
+
+							<span>|</span>
+
+							<a href="https://www.linkedin.com/in/jpvalery">
+								<div class="flex items-center gap-1">
+									<Icon name="link" />
+									<span>in/jpvalery</span>
+								</div>
+							</a>
+
+							<span>|</span>
+
+							<a href="https://github.com/jpvalery">
+								<div class="flex items-center gap-1">
+									<Icon name="codeBracket" />
+									<span>gh/jpvalery</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</header>
+			{/* end Name */}
+			{/* Column */}
+			<div class="col-gap-md col-fill-auto md:h-letter-col md:col-count-2 print:h-letter-col print:col-count-2">
+				<div class="break-inside-avoid">
+					<SectionTitle title="Experience" />
+					<div class="grid gap-4">
+						{experiences.map((experience) => (
+							<Experience
+								company={experience.company}
+								logo={experience.logo_url}
+								tagline={experience.tagline}
+								roles={experience.roles}
+							/>
+						))}
+						<p class="text-xs leading-normal text-pretty text-zinc-800">
+							<span class="font-medium text-zinc-950">
+								Earlier · {earlier.company}
+							</span>{' '}
+							<span class="text-zinc-600">
+								{earlier.start} - {earlier.end}
+							</span>{' '}
+							· {earlier.description}
+						</p>
+					</div>
+				</div>
+				<div class="break-inside-avoid">
+					<SectionTitle title="Skills" />
+					<Skills skills={skills} />
+
+					<SectionTitle title="Education & Certifications" />
+					<CompactList items={credentials} />
+
+					<SectionTitle title="Affiliations" />
+					<CompactList
+						items={affiliations.map((item) => ({
+							name: item.name,
+							detail: item.role,
+							date: item.dates,
+						}))}
+					/>
+
+					<SectionTitle title="In their words" />
+					<Quotes quotes={quotes} />
+				</div>
+			</div>
+			{/* end Column */}
+		</div>
+		{/* end Page */}
+	</main>
+</Layout>

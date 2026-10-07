@@ -1,0 +1,17 @@
+---
+// One line per item: bold name · detail, then a small date
+interface Props {
+	items: { name: string; detail: string; date: string }[];
+}
+
+const { items } = Astro.props;
+---
+
+<ul class="mb-4.5 space-y-1 text-sm leading-normal text-zinc-700">
+	{items.map((item) => (
+		<li>
+			<span class="font-semibold text-zinc-800">{item.name}</span> ·{' '}
+			{item.detail} <span class="text-xs text-zinc-600">{item.date}</span>
+		</li>
+	))}
+</ul>

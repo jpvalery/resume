@@ -1,0 +1,17 @@
+---
+// One line per category: label, then the items
+interface Props {
+	skills: { title: string; content: string[] }[];
+}
+
+const { skills } = Astro.props;
+---
+
+<dl class="mb-4.5 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-sm leading-normal">
+	{skills.map((item) => (
+		<Fragment>
+			<dt class="font-semibold text-zinc-800 capitalize">{item.title}</dt>
+			<dd class="text-zinc-700">{item.content.join(' · ')}</dd>
+		</Fragment>
+	))}
+</dl>

@@ -1,0 +1,25 @@
+---
+import atSymbol from 'heroicons/20/solid/at-symbol.svg?raw';
+import codeBracket from 'heroicons/20/solid/code-bracket.svg?raw';
+import cursorArrowRays from 'heroicons/20/solid/cursor-arrow-rays.svg?raw';
+import link from 'heroicons/20/solid/link.svg?raw';
+import mapPin from 'heroicons/20/solid/map-pin.svg?raw';
+import checkBadge from 'heroicons/24/outline/check-badge.svg?raw';
+
+const icons = {
+	atSymbol,
+	codeBracket,
+	cursorArrowRays,
+	link,
+	mapPin,
+	checkBadge,
+};
+
+interface Props {
+	name: keyof typeof icons;
+}
+
+const { name } = Astro.props;
+---
+
+<span class="h-4 w-4 shrink-0 [&>svg]:h-4 [&>svg]:w-4" set:html={icons[name]} />

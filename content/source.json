@@ -1,21 +1,22 @@
 {
-	"executiveSummary": "Strategic Customer Success leader with 6+ years of experience building and scaling remote-first CS organizations. Pioneer in leveraging technical solutions to drive operational excellence, consistently identifying and implementing industry innovations ahead of market trends. Proven track record of scaling global teams while maintaining 130%+ NRR. Deep expertise in CS operations architecture, combining strategic leadership with hands-on technical implementation across modern CS tech stack.",
+	"headline": "Customer Success & AI Operations · 12 years in email | 8 years in CS",
+	"executiveSummary": "Customer Success and AI Operations operator with 12 years in email and 8 years in Customer Success. Employee #13 at Resend through hypergrowth (5k → 130k+ paying customers, ARR up 15x, and tickets 200 → 1,500+/week); previously led a 17-person global CS team at Customer.io covering $40M+ ARR. Builds the foundations customer teams run on: AI support agents with custom evals, product code, integrations, and a tight feedback loop between customers and engineering.",
 	"experiences": [
 		{
 			"company": "Resend",
 			"logo_url": "/static/resend.jpg",
-			"location": "Remote",
+			"tagline": "Email API for developers",
 			"roles": [
 				{
 					"title": "Customer Success Engineer",
 					"start": "Feb 2025",
 					"end": "",
 					"description": [
-						"Joined Resend as employee #13—one of the foundational hires shaping customer experience as the company scaled.",
-						"Supported 5x customer, revenue, and ticket volume growth without adding headcount",
-						"Cut resolution time by 70%",
-						"Automated ~25% of all customer interactions",
-						"Shipped 73 PRs to the core product"
+						"Employee #13. Owned the customer experience through hypergrowth: 5k → 130k+ paying customers, ARR up 15x, and tickets 200 → 1,500+/week",
+						"Built an AI support agent from scratch (intent, classification, tool use, and replies) with custom evals and benchmarks; resolves ~25% of conversations",
+						"Cut resolution time by 70% and held first-response SLAs while ticket volume grew 7x, consistently at 2–4x the throughput of peer CSEs",
+						"Closed the loop with Engineering through recurring deep dives, demos, and Feedback Friday, a weekly customer-feedback newsletter",
+						"Shipped product code directly (rate-limit automation and support tooling) and helped hire and onboard the support team"
 					]
 				}
 			]
@@ -23,19 +24,18 @@
 		{
 			"company": "Customer.io",
 			"logo_url": "/static/customerio.jpg",
-			"location": "Remote",
+			"tagline": "Messaging automation platform",
 			"roles": [
 				{
 					"title": "Success Team Manager, Mid-Market & Scale",
 					"start": "May 2023",
 					"end": "Feb 2025",
 					"description": [
-						"Lead global CS team with up to 17 direct and indirect reports across 4 continents with 100% team retention",
-						"Oversee ~80% of accounts benefiting from CS services representing $40M+ Annual Recurring Revenue",
-						"Conduct bi-annual performance reviews and weekly 1:1s, achieving 7 promotions in 12 months",
-						"Supported a doubling in volume of our Scale segment with no additional headcount through webinar programs and automation",
-						"Developed Next.js automations and integrations between key platforms saving 2,000+ team hours annually",
-						"Architected parallel-processing account assignment system, eliminating single points of failure and accelerating time-to-value for all stakeholders"
+						"Led a global CS team of up to 17 direct and indirect reports across 4 continents: 100% retention and 7 promotions in 12 months",
+						"Owned ~80% of CS-covered accounts ($40M+ ARR) at 115% team NRR, 130% on my own book",
+						"Doubled Scale segment coverage with no added headcount through webinar programs and automation",
+						"Built Next.js automations and Gong, Planhat, Slack, and Zendesk integrations saving 2,000+ team hours a year",
+						"Automated account assignment with suggestions by region and book load, replacing a manual, Director-gated process"
 					]
 				},
 				{
@@ -43,8 +43,7 @@
 					"start": "Jan 2022",
 					"end": "May 2023",
 					"description": [
-						"Led successful migration from Vitally to Planhat, optimizing CS operations",
-						"Mentored and developed high-performing team of CSMs, while managing largest customer portfolio among leads"
+						"Led the Vitally → Planhat migration; coached CSMs to 120% team NRR while carrying the largest book among leads at 140% NRR"
 					]
 				},
 				{
@@ -52,7 +51,7 @@
 					"start": "Apr 2021",
 					"end": "Jan 2022",
 					"description": [
-						"Managed strategic portfolio of 50+ accounts while exceeding NRR targets (145% vs 110% goal)"
+						"Managed 50+ strategic accounts at 145% NRR (vs. 110% target)"
 					]
 				}
 			]
@@ -60,16 +59,15 @@
 		{
 			"company": "Local Logic",
 			"logo_url": "/static/locallogic.jpg",
-			"location": "Remote",
+			"tagline": "Location intelligence for real estate",
 			"roles": [
 				{
 					"title": "Manager, Growth Operations",
 					"start": "Feb 2020",
 					"end": "Feb 2021",
 					"description": [
-						"Built Customer and Growth functions supporting successful $8M Series A",
-						"Implemented GTM stack yielding 60% cost savings and 100% activation rate improvement",
-						"Reduced activation time by 50% through automated user journeys"
+						"Built the Customer and Growth functions supporting an $8M Series A",
+						"Implemented a GTM stack cutting costs 60%, doubling activation rate, and halving time to activate through automated user journeys"
 					]
 				}
 			]
@@ -77,36 +75,34 @@
 		{
 			"company": "LANDR",
 			"logo_url": "/static/landr.jpg",
-			"location": "Montréal, QC (Canada)",
+			"tagline": "Music creation platform",
 			"roles": [
 				{
 					"title": "Growth Architect",
 					"start": "Oct 2019",
 					"end": "Feb 2020",
 					"description": [
-						"Served as technical lead for Customer Experience and Monetization team",
-						"Defined and executed growth strategies across multiple channels"
+						"Technical lead for Customer Experience and Monetization; ran messaging operations delivering 10M+ emails and 12M+ in-app messages a year"
 					]
 				},
 				{
-					"title": "Customer Success Manager",
-					"start": "May 2019",
+					"title": "CS Specialist → Manager",
+					"start": "Aug 2018",
 					"end": "Oct 2019",
 					"description": [
-						"Built automated workflow reducing campaign deployment time by 85%",
-						"Implemented ML-driven churn prediction reducing customer churn by 15%",
-						"Created multi-language localization system supporting 6 languages"
+						"Migrated customer messaging from Intercom and Appcues to Customer.io; cut campaign deployment time by 85%",
+						"Implemented ML-driven churn prediction, reducing churn by 15%"
 					]
-				},
-				{
-					"title": "Customer Success Specialist",
-					"start": "Aug 2018",
-					"end": "Apr 2019",
-					"description": []
 				}
 			]
 		}
 	],
+	"earlier": {
+		"company": "Gameloft",
+		"start": "2014",
+		"end": "2017",
+		"description": "Built the email program from scratch to 500k+ subscribers, then led global product marketing for mobile launches (40M+ downloads)"
+	},
 	"education": [
 		{
 			"graduation": "Jul 2014",
@@ -153,53 +149,93 @@
 	"skills": [
 		{
 			"title": "AI",
-			"content": ["Claude Code", "Skills", "Agents", "RAG"]
+			"content": ["Claude Code", "Agents", "Skills", "Tool use", "Evals", "RAG"]
+		},
+		{
+			"title": "Email",
+			"content": [
+				"Deliverability",
+				"SPF / DKIM / DMARC",
+				"Transactional",
+				"Lifecycle",
+				"React Email"
+			]
 		},
 		{
 			"title": "Development",
 			"content": [
-				"Next",
-				"Tailwind",
-				"git",
-				"REST API",
+				"Next.js",
+				"Astro",
 				"React",
 				"JavaScript",
+				"Tailwind",
+				"REST API",
 				"GraphQL",
 				"Vercel",
-				"Linear"
+				"git"
 			]
-		},
-		{
-			"title": "languages",
-			"content": ["French", "English", "High Valyrian"]
 		},
 		{
 			"title": "CS Operations",
 			"content": [
 				"Plain",
-				"Posthog",
+				"PostHog",
 				"Retool",
 				"Customer.io",
 				"Planhat",
 				"Segment",
-				"Mixpanel",
-				"Amplitude",
-				"Vitally",
+				"Linear",
 				"Zendesk",
-				"HelpScout",
 				"Salesforce"
 			]
 		},
 		{
-			"title": "Productivity",
-			"content": [
-				"Notion",
-				"Raycast",
-				"Zapier",
-				"Google Workspace",
-				"Slack",
-				"Zoom"
-			]
+			"title": "languages",
+			"content": ["French", "English", "High Valyrian"]
+		}
+	],
+	"quotes": [
+		{
+			"text": "His versatility is his superpower, leading to infamous quotes like ‘everyone needs a JP.’",
+			"author": "Brendan Fortune",
+			"context": "Colleague at Customer.io"
+		},
+		{
+			"text": "In my 18+ years working in email marketing, none have come close to the level of excellence that Jp consistently delivers.",
+			"author": "Matthew Hayes",
+			"context": "Customer at Customer.io"
+		},
+		{
+			"text": "Jp was the best CSM I've ever had the pleasure of working with.",
+			"author": "Brendan Baker",
+			"context": "Customer, 15+ years working with CSMs"
+		},
+		{
+			"text": "Jp is a rare breed: a big-picture thinker who can also get messy in the details.",
+			"author": "Slater Smith",
+			"context": "Direct report at Customer.io"
+		},
+		{
+			"text": "It is hard to beat the good fortune of having a manager like Jp.",
+			"author": "Victoria Sabo",
+			"context": "Direct report at Local Logic"
+		},
+		{
+			"text": "He has played a crucial role in my own growth and development.",
+			"author": "Ryan Stahulak",
+			"context": "Teammate at Customer.io"
+		}
+	],
+	"affiliations": [
+		{
+			"name": "GLG and Tegus",
+			"role": "Expert advisor on email, marketing, and RevOps stacks",
+			"dates": "since 2019"
+		},
+		{
+			"name": "Pavilion",
+			"role": "Associate Chapter Head",
+			"dates": "2020 - 2023"
 		}
 	]
 }

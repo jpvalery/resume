@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets';
+
+const logos = import.meta.glob<{ default: ImageMetadata }>(
+	'../assets/logos/*.jpg',
+	{ eager: true },
+);
+
+const { company, logo, tagline, roles } = Astro.props;
+// Content keeps the old public paths (/static/x.jpg); resolve them to the bundled asset
+const logoAsset = logo
+	? logos[`../assets/logos/${logo.split('/').pop()}`]?.default
+	: undefined;
+---
+
+<section class="grid break-inside-avoid grid-flow-row gap-2">
+	<header class="grid grid-flow-col items-center justify-start gap-2">
+		<div class="h-10 w-10">
+			{logoAsset && (
+				<Image
+					src={logoAsset}
+					alt={company}
+					width={80}
+					height={80}
+					class="h-auto max-w-full rounded-sm object-cover"
+				/>
+			)}
+		</div>
+		<div class="gap grid grid-flow-row">
+			<h3 class="leading-snugish text-lg font-semibold text-zinc-800">
+				{company}
+			</h3>
+			<p class="leading-snugish text-sm text-zinc-700">{tagline}</p>
+		</div>
+	</header>
+	<section>
+		{roles.map((role) => (
+			<div class="pb-2">
+				<div class="inline-flex items-baseline gap-2">
+					<p class="text-md leading-normal font-medium text-zinc-950">
+						{role.title.slice(0, 32)}
+					</p>
+					<p class="text-xs leading-normal text-zinc-600">
+						{role.end === ''
+							? `since ${role.start}`
+							: `${role.start} - ${role.end}`}
+					</p>
+				</div>
+				<ul class="space-y-0.5 text-xs leading-normal text-pretty text-zinc-800">
+					{role.description?.map((detail) => <li>· {detail}</li>)}
+				</ul>
+			</div>
+		))}
+	</section>
+</section>
