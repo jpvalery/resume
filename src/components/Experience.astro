@@ -1,15 +1,15 @@
 ---
-import { Image } from 'astro:assets';
+import { Image } from "astro:assets";
 
 const logos = import.meta.glob<{ default: ImageMetadata }>(
-	'../assets/logos/*.jpg',
+	"../assets/logos/*.jpg",
 	{ eager: true },
 );
 
 const { company, logo, tagline, roles } = Astro.props;
 // Content keeps the old public paths (/static/x.jpg); resolve them to the bundled asset
 const logoAsset = logo
-	? logos[`../assets/logos/${logo.split('/').pop()}`]?.default
+	? logos[`../assets/logos/${logo.split("/").pop()}`]?.default
 	: undefined;
 ---
 

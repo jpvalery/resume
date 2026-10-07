@@ -15,7 +15,9 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"format": "prettier --write \"**/*.{js,mjs,astro,md,json}\""
+		"lint": "biome check .",
+		"lint:fix": "biome check --write .",
+		"format": "biome check --write ."
 	},
 	"license": "NonCommercial-ShareAlike 1.0 Generic",
 	"author": "@jpvalery <jpvalery@users.noreply.github.com>",
@@ -27,8 +29,6 @@
 		"tailwindcss": "4.3.3"
 	},
 	"devDependencies": {
-		"prettier": "^3.0.1",
-		"prettier-plugin-astro": "1.1.0",
-		"prettier-plugin-tailwindcss": "^0.6.10"
+		"@biomejs/biome": "2.5.14"
 	}
 }

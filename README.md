@@ -35,6 +35,13 @@ Build the static site into `dist/`:
 pnpm build
 ```
 
+Lint and format with Biome:
+
+```
+pnpm lint
+pnpm format
+```
+
 ## Starting Point
 
 `content/source.json` holds all the résumé content (headline, experience, skills, education, affiliations, quotes). `src/pages/index.astro` lays it out and `src/components/` holds the building blocks. Company logos live in `src/assets/logos/` and are resized at build time.

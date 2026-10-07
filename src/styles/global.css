@@ -1,7 +1,8 @@
+/* biome-ignore-all lint/complexity/noImportantStyles: print overrides must beat Tailwind utility classes */
 /* @import 'docs/fira-go.css' layer(base); */
-@import 'tailwindcss';
+@import "tailwindcss";
 
-@config '../../tailwind.config.cjs';
+@config "../../tailwind.config.cjs";
 
 /*
   The default border color has changed to `currentColor` in Tailwind CSS v4,
@@ -63,19 +64,20 @@ html {
 
 /* For Letter size */
 
-@media (width >= theme(--breakpoint-sm)) {
+@media (width >= 640px) {
 	html {
 		font-size: calc(
-			13.176471px + (16 - 13.176471) * (100vw - 640px) / (833 - 640)
+			13.176471px +
+			(16 - 13.176471) *
+			(100vw - 640px) /
+			(833 - 640)
 		);
 	}
 }
 
-@media (width >= theme(--breakpoint-md)) {
+@media (width >= 833px) {
 	html {
-		font-size: calc(
-			12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833)
-		);
+		font-size: calc(12.288px + (16 - 12.288) * (100vw - 833px) / (1079.5 - 833));
 	}
 }
 
@@ -93,14 +95,14 @@ html {
   }
 } */
 
-@media (width >= theme(--breakpoint-lg)) {
+@media (width >= 1079.5px) {
 	html {
 		font-size: 16px;
 	}
 }
 
 body .icon-parent::before {
-	content: 'A';
+	content: "A";
 	width: 0px;
 	visibility: hidden;
 	display: inline-block;
