@@ -21,7 +21,7 @@ importers:
         specifier: 0.35.5
         version: 0.35.5
       tailwindcss:
-        specifier: ^4.3.3
+        specifier: 4.3.3
         version: 4.3.3
     devDependencies:
       prettier:
